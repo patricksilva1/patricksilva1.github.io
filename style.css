@@ -241,6 +241,10 @@ h3 {
     width: 53rem;
 }
 
+.reversed-proj {
+    flex-direction: row-reverse !important;
+}
+
 /* pro__text */
 .projects-grid .pro__text {
     display: flex;
@@ -395,4 +399,9 @@ footer h3 {
 .footer-contacts {
     display: flex;
     align-items: center;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 2rem;
 }
