@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&display=swap" <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="apple-touch-icon" href="./porticon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-modal.css">
+    <title>patricksilva.me</title>
+    <link rel="icon" href="img/icons/icon.png" sizes="16x16">
+</head>
+
+<body>
+    <nav class="nav">
+        <h3 href="#home" class="logo">Patricksilva.me</h3>
+        <ul>
+            <li> <a href="#home"> Home</a></li>
+            <li> <a href="#about"> About</a></li>
+            <li> <a href="#projects"> Projects</a></li>
+            <li> <a href="#blog"> Blog</a></li>
+        </ul>
+    </nav>
+    <!-- Seção do hero -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="content">
+                <div class="hero-main">
+                    <div class="hero-text">
+                        <h1>A Back-End Developer 💻</h1>
+                        <p>Hi, I’m Patrick Loureiro. A passionate back-end developer based in Rio de Janeiro, Brazil.📍</p>
+                        <span>
+                            <a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/patrickloureirodasilva/"><i class="fa fa-linkedin"></i></a>
+                            <a aria-label="github" rel="noreferrer" target="_blank" href="https://github.com/patricksilva1"> <i class="fa fa-github"></i></a>
+                            <a aria-label="instagram" rel="noreferrer" target="_blank" href="https://www.instagram.com/patricksilva.me/"> <i class="fa fa-instagram"></i></a> <a aria-label="google" rel="noreferrer" target="_blank" href="mailto:patricksilva.me@gmail.com"> <i class="fa fa-google"></i></a>
+                        </span>
+                    </div>
+                    <div class="profile-img"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Seção dos projetos -->
+    <section id="projects" class="project">
+        <div class="container">
+            <div class="project-content">
+                <p>portfolio</p>
+            </div>
+            <h3>Each project is a unique piece of development 🧩</h3>
+            <div class="projects-grid">
+                <!-- Projeto 1 -->
+                <div class="pro pro__1 undefined">
+                    <div class="pro__img">
+                        <a target="_blank" href="https://github.com/patricksilva1" rel="noreferrer">
+                            <img src="img/diagrams/Diagram-Cascate-827x2338.jpg" alt="project_one">
+                        </a>
+                    </div>
+                    <div class="pro__text">
+                        <h3>Name Application 1</h3>
+                        <p>Lorem Ipsum is simply dummy text. Has been the industry's standard dummy text ever since the
+                            1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book. It has survived not only five centuries.</p>
+                        <div class="stack">
+                            <p>Java</p>
+                            <p>Spring Boot</p>
+                            <p>Spring Security</p>
+                            <p>MySQL</p>
+                        </div>
+                        <div class="links">
+                            <a target="_blank" href="https://github.com/patricksilva1/Spring-Microservices" rel="noreferrer">Code <i class="fa fa-github"></i> </a>
+                            <a target="_blank" href="https://github.com/patricksilva1/Spring-Microservices" rel="noreferrer">Schema <i class="fa fa-external-link"></i></a>
+                            <!--Modal 1-->
+                                <!-- Botão para carregar a janela modal com o SELETOR 'vis-modal' -->
+                                <button class="btn-outline-success" onclick="abrirModal('vis-modal')" data-toggle="modal" data-target="#modal1">Preview</button>
+                                <!-- Janela modal 'vis-modal'-->
+                                <div id="vis-modal" class="modal">
+                                    <div class="conteudo-modal">
+                                        <div class="cabecalho-modal">
+                                            <h1 class="cabecalho-titulo-modal">Diagram 1</h1>
+                                            <!-- Chamar a função para fechar a janela modal 'vis-modal' -->
+                                            <!-- <span class="cabecalho-modal-fechar" onclick="fecharModal('vis-modal')">X</span> -->
+                                            <button class="btn-outline-success" onclick="fecharModal('vis-modal')">Fechar</button>
+                                        </div>
+                                        <div class="corpo-modal img-modal">
+                                            <img src="img/diagrams/Diagram-ATM-1775x913.jpg" alt="Imagem">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed lectus semper, facilisis libero eget, mattis ipsum. Integer vel nisl vitae ex placerat mollis ac vitae velit. </p>
+                                        </div>
+                                        <div class="rodape-modal">
+                                            <!-- Botão para fechar a janela modal 'vis-modal' -->
+                                            <p>Rodapé</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!--End Modal -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Projeto 2 -->
+                <div class="pro pro__1 undefined">
+                    <div class="pro__text">
+                        <h3>Name Application 2</h3>
+                        <p>Lorem Ipsum is simply dummy text. Has been the industry's standard dummy text ever since the
+                            1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book. It has survived not only five centuries.</p>
+                        <div class="stack">
+                            <p>Spring Boot</p>
+                            <p>Spring Security</p>
+                            <p>MongoDB</p>
+                        </div>
+                        <div class="links">
+                            <a target="_blank" href="https://github.com/patricksilva1/Spring-Microservices" rel="noreferrer">Code <i class="fa fa-github"></i></a>
+                            <a target="_blank" href="https://github.com/patricksilva1/Spring-Microservices" rel="noreferrer">Schema <i class="fa fa-external-link"></i></a>
+                            <!--Modal 2-->
+                                <!-- Botão para carregar a janela modal com o SELETOR 'vis-modal' -->
+                                <button class="btn-outline-success" onclick="abrirModal('vis-modal2')">Preview</button>
+                                <!-- Janela modal 'vis-modal'-->
+                                <div id="vis-modal2" class="modal">
+                                    <div class="conteudo-modal">
+                                        <div class="cabecalho-modal">
+                                            <h1 class="cabecalho-titulo-modal">Diagram 2</h1>
+                                            <!-- Chamar a função para fechar a janela modal 'vis-modal' -->
+                                            <!-- <span class="cabecalho-modal-fechar" onclick="fecharModal('vis-modal')">X</span> -->
+                                            <button class="btn-outline-success" onclick="fecharModal('vis-modal2')">Fechar</button>
+                                        </div>
+                                        <div class="corpo-modal img-modal">
+                                            <img src="img/diagrams/Diagram-Course-White-545x963.jpg" alt="Imagem">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed lectus semper, facilisis libero eget, mattis ipsum. Integer vel nisl vitae ex placerat mollis ac vitae velit. </p>
+                                        </div>
+                                        <div class="rodape-modal">
+                                            <!-- Botão para fechar a janela modal 'vis-modal' -->
+                                            <p>Rodapé</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!--End Modal -->
+                        </div>
+                    </div>
+                    <div class="pro__img">
+                        <a target="_blank" href="https://github.com/patricksilva1" rel="noreferrer">
+                            <img src="img/diagrams/Diagram-Cascate-827x2338.jpg" alt="project_two">
+                        </a>
+
+                    </div>
+                </div>
+                <!-- Projeto 3 -->
+                <div class="pro pro__1 undefined">
+                    <div class="pro__img">
+                        <a target="_blank" href="https://github.com/patricksilva1" rel="noreferrer">
+                            <img src="img/diagrams/Diagram-Cascate-827x2338.jpg" alt="project_one">
+                        </a>
+                    </div>
+
+                    <div class="pro__text">
+                        <h3>Name Application 3</h3>
+                        <p>Lorem Ipsum is simply dummy text. Has been the industry's standard dummy text ever since the
+                            1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book. It has survived not only five centuries.</p>
+                        <div class="stack">
+                            <p>Java</p>
+                            <p>Spring Boot</p>
+                            <p>Spring Security</p>
+                            <p>MySQL</p>
+                        </div>
+                        <div class="links">
+                            <a target="_blank" href="https://github.com/patricksilva1/Spring-Microservices" rel="noreferrer">Code <i class="fa fa-github"></i></a>
+                            <a target="_blank" href="https://github.com/patricksilva1/Spring-Microservices" rel="noreferrer">Schema <i class="fa fa-external-link"></i></a>
+                               <!--Modal 3-->
+                                <!-- Botão para carregar a janela modal com o SELETOR 'vis-modal' -->
+                                <button class="btn-outline-success" onclick="abrirModal('vis-modal3')">Preview</button>
+                                <!-- Janela modal 'vis-modal'-->
+                                <div id="vis-modal3" class="modal">
+                                    <div class="conteudo-modal">
+                                        <div class="cabecalho-modal">
+                                            <h1 class="cabecalho-titulo-modal">Diagram 3</h1>
+                                            <!-- Chamar a função para fechar a janela modal 'vis-modal' -->
+                                            <!-- <span class="cabecalho-modal-fechar" onclick="fecharModal('vis-modal')">X</span> -->
+                                            <button class="btn-outline-success" onclick="fecharModal('vis-modal3')">Fechar</button>
+                                        </div>
+                                        <div class="corpo-modal img-modal">
+                                            <img src="img/diagrams/CourseDiagram.jpg" alt="Imagem">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed lectus semper, facilisis libero eget, mattis ipsum. Integer vel nisl vitae ex placerat mollis ac vitae velit. </p>
+                                        </div>
+                                        <div class="rodape-modal">
+                                            <!-- Botão para fechar a janela modal 'vis-modal' -->
+                                            <p>Rodapé</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!--End Modal -->
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3>Copyright © 2023. All rights are reserved by Patrick L. da Silva</h3>
+                <div class="footer-contacts">
+                    <h3>email: patricksilva.me@gmail.com</h3>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="modal.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+body {
+    background-color: #fff;
+    font-family: Poppins, sans-serif;
+    position: relative;
+}
+
+.btn-outline-success {
+    background-color: #fff;
+    /* color: #47a447; */
+    color: #2d2d2d;
+    padding: 5px 8px;
+    /* border: 1px solid #47a447; */
+    border: 1px solid #2d2d2d;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16.5px;
+    transition: all .3s ease;
+}
+
+.btn-outline-success:hover {
+    /* background-color: #47a447; */
+    background-color: #2d2e32;
+
+    color: #fff;
+}
+
+.cabecalho-modal {
+    padding: 1px 8px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid #eee 1px;
+}
+
+.cabecalho-modal .cabecalho-titulo-modal {
+    font-weight: bold;
+    margin: 10px 0;
+    /* justify-content: center; */
+}
+
+.cabecalho-modal .cabecalho-modal-fechar {
+    padding: 20px 10px;
+    cursor: pointer;
+}
+
+/* Modal */
+.modal {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    overflow: auto;
+    opacity: 1;
+}
+
+.conteudo-modal {
+    margin: 0 auto;
+    margin-top: 10rem;
+    /* Margem do modal */
+    margin-bottom: 10rem;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    display: table;
+
+    padding: 10px;
+    border: 1px solid #fff;
+    width: 80%;
+
+}
+
+/* .second-image {
+    position: relative;
+    z-index: 2;
+  } */
+/*  */
+
+.corpo-modal {
+    padding: 1px 8px 8px 8px;
+    overflow: auto;
+}
+
+.img-modal {
+    max-height: 60%;
+    max-width: 80%;
+    margin: 0 auto;
+    overflow: auto;
+    display: contents;
+    z-index: 2;
+}
+
+.rodape-modal {
+    border-top: solid #eee 1px;
+    padding: 8px;
+}
