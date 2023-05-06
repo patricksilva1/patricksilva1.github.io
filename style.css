@@ -343,6 +343,19 @@ h3 {
     text-align: center;
 }
 
+.stack ul{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    color: #000 !important;
+    font-family: Mulish, sans-serif !important;
+    font-size: 15px;
+    display: flex;
+    padding: 0.13rem 1.5rem;
+    align-items: center;
+    margin-top: 1rem;
+    text-align: center;
+}
+
 /* links */
 .links {
     gap: 1rem;
