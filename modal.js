@@ -51,3 +51,11 @@ botoesAbrirModal.forEach(function(botao) {
 });
 
   //  ----------------------------------------------------------
+
+  // Voltar ao Topo
+  $(document).ready(function() {
+    $('#subir').click(function(){
+      $('html, body').animate({scrollTop:0}, 'slow');
+      return false;
+    });
+  });
