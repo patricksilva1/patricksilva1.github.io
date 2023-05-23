@@ -1,6 +1,7 @@
 * {
     scrollbar-color: #8e8e8e #fff;
     scrollbar-width: thin;
+    scroll-behavior: smooth;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -120,8 +121,18 @@ a {
 
 .container-projects {
     margin: 0 auto;
+    /* margin: -55rem auto; */
     max-width: 107rem;
     padding: 4rem 4rem;
+}
+
+p{
+    font-size: 1.7rem;
+}
+
+li{
+    font-size: 1.7rem;
+    
 }
 
 .content {
@@ -226,6 +237,11 @@ a {
     height: auto;
     width: 100%;
 }
+
+.indice a {
+    text-decoration: none;
+    outline: none;
+  }
 
 /* pro projects */
 .projects-grid .pro {
@@ -419,4 +435,20 @@ footer h3 {
 .footer-socials {
     display: flex;
     gap: 2rem;
+}
+
+#subir{
+    background-color: #000;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 32px;
+    color: aliceblue;
+    transition: margin-top 250ms;
 }
