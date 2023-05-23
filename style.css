@@ -107,11 +107,21 @@ h3 {
     color: #000000;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* container */
 .container {
     margin: 0 auto;
     max-width: 107rem;
-    padding: 0 4rem;
+    padding: 0rem 4rem;
+}
+
+.container-projects {
+    margin: 0 auto;
+    max-width: 107rem;
+    padding: 4rem 4rem;
 }
 
 .content {
@@ -199,7 +209,7 @@ h3 {
 /* project */
 .project {
     background-color: #f9f9f9;
-    padding: 15rem 0;
+    padding: 5rem 0;
 }
 
 .project-content {
@@ -259,22 +269,14 @@ h3 {
 .projects-grid .pro__text h3 {
     color: #2d2e32;
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: auto;
     position: relative;
     text-transform: uppercase;
 }
 
 .projects-grid .pro__text p {
     color: #767676;
-    font-size: 1.6rem;
-    font-weight: 500;
-    text-align: center;
-    text-transform: none;
-}
-
-.projects-grid .pro__text p {
-    color: #767676;
-    font-size: 1.6rem;
+    font-size: 1.55rem;
     font-weight: 500;
     text-align: center;
     text-transform: none;
