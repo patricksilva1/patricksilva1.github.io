@@ -32,7 +32,7 @@ body {
 }
 
 .cabecalho-modal .cabecalho-titulo-modal {
-    font-weight: bold;
+    font-weight: normal;
     margin: 10px 0;
     /* justify-content: center; */
 }
@@ -40,6 +40,7 @@ body {
 .cabecalho-modal .cabecalho-modal-fechar {
     padding: 20px 10px;
     cursor: pointer;
+    justify-content: right;
 }
 
 /* Modal */
