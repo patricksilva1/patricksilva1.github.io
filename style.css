@@ -241,6 +241,12 @@ li{
 .indice a {
     text-decoration: none;
     outline: none;
+    /* height: 50px;
+    width: 50px;
+    position: relative;
+    right: 1rem;
+    padding: 20px;
+    overflow-y: auto; */
   }
 
 /* pro projects */
