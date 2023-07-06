@@ -33,7 +33,7 @@
                 <h1>Sumário:</h1>
                 <li><a href="#Visao geral" style="color: inherit;">1. Visao geral</a></li>
                 <li><a href="#Engenharia Requisitos" style="color: inherit;">2. Engenharia Requisitos</a></li>
-                <li><a href="#Arquitetura do Sistema" style="color: inherit;">3. Arquitetura do Sistema</a></li>
+                <li><a href="#Design do Sistema" style="color: inherit;">3. Design do Sistema</a></li>
                 <li><a href="#Tecnologias Utilizadas" style="color: inherit;">4. Tecnologias utilizadas</a></li>
                 <li><a href="#Diagrama de classes" style="color: inherit;">5. Diagrama de classes</a></li>
                 <li><a href="#Componentes principais" style="color: inherit;">6. Componentes principais</a></li>
@@ -58,77 +58,58 @@
         <div class="container-projects">
         <div class="content2">
            <!-- Visão Geral -->
-           <h1 id="Visao geral" style="font-size: 2.5rem; text-align: center;">1. Visão Geral</h1>
+           <h1 id="Visao geral" style="font-size: 2.5rem; text-align: center;">1. Visão Geral</h1> 
+
            <br>
            
-           <p>O Objetivo:</p>
-           <p>
-               O que temos que ter sempre em mente é que a crescente influência da mídia deve passar por modificações
-               independentemente do sistema de formação de quadros que corresponde às necessidades. No mundo atual, o
-               acompanhamento das preferências de consumo pode nos levar a considerar a reestruturação dos métodos
-               utilizados na avaliação de resultados. A certificação de metodologias que nos auxiliam a lidar com a
-               complexidade dos estudos efetuados auxilia a preparação e a composição dos conhecimentos estratégicos
-               para atingir a excelência. Percebemos, cada vez mais, que o fenômeno da Internet maximiza as
-               possibilidades por conta das diversas correntes de pensamento.
-           </p>
+           <p style="font-size: 2.0rem; text-align: center;"> Sky Aviator</p>
+            
+           <br>
 
+           <p>
+            A Sky Aviator é uma agência de vendas de passagens aéreas especializada em proporcionar uma ampla seleção de passagens aéreas. A ideia surgiu a partir de uma conversa entre amigos que buscavam criar um sistema de passagens mais ágil e acessível do que os disponíveis atualmente.
+            Desenvolvi um backend utilizando uma arquitetura de microsserviços, o que nos permite alcançar maior escalabilidade e garantir a independência entre os serviços. Dessa forma, podemos oferecer um sistema robusto e eficiente aos nossos clientes.
+            Além disso, o banco de dados é preenchido com informações de voos já realizados anteriormente. Isso significa que, ao fazer uma pesquisa no sistema, você encontrará voos reais que foram operados. Isso nos permite oferecer uma experiência mais precisa de como uma agência de viagens de fato opera, ajudando-os a tomar decisões informadas sobre suas viagens.
+            Abaixo você pode conferir mais detalhes sobre o projeto.
+           </p>
+          
+           <div class="links">
+            <a target="_blank" href="https://github.com/Sky-Aviator/Back-end" rel="noreferrer" style="text-align: right;">Check the Code 🡪 </a>
+           </div>
+          
+            <br>
+           
            <!-- Engenharia de Requisitos -->
            <h1 id="Engenharia Requisitos" style="font-size: 2.5rem; text-align: center;">2. Engenharia Requisitos</h1>
            <br>
+           
            <h1 style="font-size: 2rem;">Requisitos funcionais:</h1>
            <br>
-
-           <p>Gerenciamento de cardápio:</p>        
-           <p>- Adicionar, editar e excluir itens do cardápio.</p>
-           <p>- Suporte a categorias e subcategorias de itens.</p>
-           <p>- Adicionar descrições, imagens e preços aos itens.</p>
+            
+           <p>Pesquisa de Passagens:</p>
+           <br>
+           <p>- Permitir aos usuários pesquisar passagens aéreas com base em destinos, datas e preferências.</p>
+           <p>- Apresentar resultados de pesquisa com opções de voos disponíveis, incluindo companhias aéreas, horários e preços.</p>
            <br>
 
-           <p>Pedidos de delivery:</p>
-           <p>- Receber pedidos de delivery online.</p>
-           <p>- Integração com sistemas de pagamento online para processar pagamentos.</p>
-           <p>- Rastreamento de pedidos em tempo real para clientes e funcionários.</p>
-           <p>- Definir uma área de entrega e calcular taxas com base na localização.</p>
+           <p>Reservas e Compra de Passagens:</p>
+           <br>
+           <p>- Possibilitar aos usuários selecionar e reservar passagens aéreas desejadas.</p>
+           <p>- Oferecer opções de pagamento seguras e integradas para a compra das passagens selecionadas.</p>
+           <p>- Emitir bilhetes eletrônicos ou fornecer informações de reserva para os clientes.</p>
            <br>
 
-           <p>Gerenciamento de pedidos:</p>
-           <p>- Exibir pedidos em tempo real para a equipe do restaurante.</p>
-           <P>- Aceitar, recusar ou adiar pedidos.</P>
+           <p>Gerenciamento de Clientes:</p>
+           <br>
+           <p>- Manter um banco de dados de clientes com informações de contato e histórico de viagens.</p>
+           <p>- Permitir que os clientes acessem suas reservas e informações de voo por meio de uma conta pessoal.</p>
+           <p>- Enviar notificações e atualizações relevantes aos clientes sobre suas viagens.</p>
            <br>
 
-           <p>Reservas e gerenciamento de mesas:</p>
-           <p>- Sistema de reservas online para clientes.</p>
-           <p>- Definir a disponibilidade de mesas em tempo real.</p>
-           <p>- Gerenciamento de status de mesas.</p>
-           <p>- Atribuir pedidos a mesas específicas.</p>
+           <p>Suporte ao Cliente:</p>
            <br>
-
-           <p>Controle de estoque:</p>
-           <p>- Acompanhamento do estoque de ingredientes e produtos.</p>
-           <p>- Alertas automáticos de estoque baixo ou vencido.</p>
-           <p>- Realizar pedidos de reposição automaticamente.</p>
-           <br>
-
-           <p>Relatórios e análises:</p>
-           <p>- Gerar relatórios de vendas, pedidos, estoque e desempenho do restaurante.</p>
-           <p>- Analisar dados para identificar tendências e oportunidades de melhoria.</p>
-           <p>- Exportar relatórios em diferentes formatos.</p>
-           <br>
-
-           <p>Integração com aplicativos de entrega:</p>
-           <p>- Conectar-se com serviços de entrega populares.</p>
-           <p>- Sincronizar pedidos recebidos por meio desses aplicativos.</p>
-           <br>
-
-           <p>Gestão de clientes:</p>
-           <p>- Banco de dados de clientes com informações de contato e histórico de pedidos.</p>
-           <p>- Enviar promoções e ofertas por e-mail.</p>
-           <br>
-
-           <p>Administração e segurança:</p>
-           <p>- Contas de usuário com diferentes níveis de acesso.</p>
-           <p>- Registro de atividades e auditoria de alterações no sistema.</p>
-           <p>- Proteção de dados pessoais e informações financeiras dos clientes.</p>
+           <p>- Disponibilizar canais de atendimento ao cliente para auxiliar em dúvidas, consultas e solução de problemas relacionados às passagens aéreas.</p>
+           <p>- Fornecer suporte antes, durante e após a viagem, incluindo assistência em caso de alterações de voos, cancelamentos ou reembolsos.</p>
            <br>
 
            <h1 style="font-size: 2rem;">Requisitos não funcionais:</h1>
@@ -143,142 +124,107 @@
            <p>O software deve ser compatível com os browsers IE (versão 5.0 ou superior) e Firefox (1.0 ou superior);</p>
            
            <p>Usabilidade:</p>
-           <p>- Interface intuitiva e fácil de usar para clientes e funcionários.</p>
-           <p>- Tempo de resposta rápido ao realizar ações no software.</p>
+           <p>- Oferecer uma interface intuitiva e fácil de usar para os usuários navegarem e reservarem passagens aéreas.</p>
+           <p>- Realizar qualquer pesquisa de passagem entre todos os bancos em tempo inferior a 5 segundos.</p>
+           <p>- Garantir tempos de resposta rápidos ao realizar reservas no sistema, como pesquisar voos.</p>
            <br>
 
            <p>Desempenho:</p>
-           <p>- Capacidade de lidar com um grande número de pedidos e clientes simultaneamente.</p>
+           <p>- Lidar com um grande volume de consultas e pesquisas simultâneas de passagens aéreas.</p>
            <p>- Tempo de carregamento rápido do sistema e processamento eficiente de dados.</p>
-           <p>O software deve garantir que o tempo de retorno das consultas não seja maior do que 5 segundos.</p>
+           <p>- Garantir um tempo de carregamento rápido das informações e processamento eficiente dos dados.</p>
            <br>
 
            <p>Confiabilidade:</p>
-           <p>- Sistema estável e confiável, com baixa possibilidade de falhas ou interrupções.</p>
-           <p>- Backup regular dos dados para evitar perdas.</p>
+           <p>- Manter a estabilidade e disponibilidade do sistema, minimizando falhas e interrupções durante o processo de reserva e compra de passagens.</p>
+           <p>- Realizar backups regulares dos dados para evitar perdas de informações importantes.</p>
            <br>
 
            <p>Segurança:</p>
-           <p>- Proteção de dados sensíveis, como informações de pagamento e dados dos clientes.</p>
-           <p>- Acesso seguro às contas de usuário com autenticação adequada.</p>
+           <p>- Proteger dados pessoais e financeiros dos clientes, utilizando criptografia e práticas de segurança adequadas.</p>
+           <p>- Implementar autenticação segura e controle de acesso para as contas dos clientes.</p>
            <br>
 
            <p>Escalabilidade:</p>
-           <p>- Capacidade de dimensionar o sistema para lidar com o crescimento do restaurante e do delivery.</p>
+           <p>- Capacidade de dimensionar o sistema para lidar com o aumento do número de usuários e demanda por passagens aéreas.</p>
+           <p>- Garantir que o sistema possa suportar picos de tráfego durante períodos de alta temporada ou promoções especiais.</p>
            <br>
 
            <p>Compatibilidade:</p>
-           <p>- Compatibilidade com diferentes dispositivos (computadores, tablets, smartphones).</p>
-           <p>- Integração com sistemas de pagamento e serviços de entrega externos.</p>
+           <p>- Ser compatível com uma variedade de dispositivos, incluindo computadores, tablets e smartphones, para permitir que os usuários acessem o sistema de qualquer lugar.</p>
+           <p>- Integrar-se a sistemas de pagamento e outras plataformas relevantes para oferecer opções de pagamento e serviços mais abrangentes.</p>
            <br>
 
            <p>Manutenção:</p>
-           <p>- Facilidade de manutenção do software, incluindo atualizações e correções de bugs.</p>
+           <p>- Facilidade de manutenção do sistema, permitindo atualizações regulares, correções de bugs e melhorias contínuas para garantir a qualidade e aprimorar a experiência do usuário.</p>
 
            <br>
-           <h1 id="Arquitetura do Sistema" style="font-size: 2.5rem; text-align: center;">3. Aquitetura do Sistema</h1>
+           <h1 id="Design do Sistema" style="font-size: 2.5rem; text-align: center;">3. Design do Sistema</h1>
            <br>
           
-           <p  >
-               O que temos que ter sempre em mente é que a crescente influência da mídia deve passar por modificações
-               independentemente do sistema de formação de quadros que corresponde às necessidades. No mundo atual, o
+           <p>
+             Abaixo, apresento um 'System Design' detalhado do projeto, com o objetivo de facilitar o entendimento e examinar minuciosamente os detalhes do sistema.
            </p>
+           <br>
 
            <br>
-           <img src="img/diagrams/CourseDiagram.jpg" alt="Diagram 1">
+           <img src="img/skyaviator/Sky Aviator-SystemDesign-V2.0-White.jpg" alt="Sky Aviator Diagram" width="100%"  height="auto">
+           <br>
+
            <br>
 
            <p>
-               O que temos que ter sempre em mente é que a crescente influência da mídia deve passar por modificações
-               independentemente do sistema de formação de quadros que corresponde às necessidades. No mundo atual, o
-               acompanhamento das preferências de consumo pode nos levar a considerar a reestruturação dos métodos
-               utilizados na avaliação de resultados. A certificação de metodologias que nos auxiliam a lidar com a
-               complexidade dos estudos efetuados auxilia a preparação e a composição dos conhecimentos estratégicos
-               para atingir a excelência. Percebemos, cada vez mais, que o fenômeno da Internet maximiza as
-               possibilidades por conta das diversas correntes de pensamento.
+            A construção de sistemas de passagens aéreas é um processo desafiador, devido à natureza complexa e aos requisitos específicos envolvidos. Esses sistemas precisam lidar com uma variedade de tarefas complexas, como pesquisa de voos, reservas, integração com companhias aéreas, processamento de pagamentos, gerenciamento de clientes e muito mais.
+            Uma das principais dificuldades na construção de sistemas de passagens aéreas é lidar com a enorme quantidade de dados em tempo real. 
+            </p>
+
+            <br>
+
+            <p>
+            Esses sistemas devem ser capazes de buscar e exibir informações atualizadas sobre voos, horários, disponibilidade de assentos e preços, garantindo uma experiência de usuário ágil e precisa.
+            Além disso, a escalabilidade é um fator crucial nesse tipo de sistema, já que eles precisam lidar com um grande volume de tráfego, especialmente durante períodos de alta demanda, como feriados e férias.
+            </p>
+            <br>
+            <p>
+            Garantir que o sistema possa se expandir e acomodar um número crescente de usuários é essencial para oferecer um serviço confiável e eficiente.
+            Outro desafio enfrentado na construção de sistemas de passagens aéreas é a integração com diferentes companhias aéreas. Cada companhia pode ter seus próprios sistemas e protocolos de comunicação, o que requer uma estrutura flexível e adaptável para garantir a sincronização e a disponibilidade em tempo real dos dados.
+            </p>
+            <br>
+            <p>
+            Em resumo, a construção de sistemas de passagens aéreas apresenta uma série de desafios devido à complexidade envolvida. No entanto, este sistema foi concebido com o objetivo de superar essas dificuldades. Ele foi projetado para ser facilmente escalável e independente, seguindo os padrões de um sistema comercial de passagens aéreas.
            </p>
 
-           <p>
-               No entanto, não podemos esquecer que a determinação clara de objetivos nos obriga à análise das
-               condições financeiras e administrativas exigidas. Não obstante, a complexidade dos estudos efetuados
-               cumpre um papel essencial na formulação das diretrizes de desenvolvimento para o futuro. Pensando mais a
-               longo prazo, a contínua expansão de nossa atividade obstaculiza a apreciação da importância das diversas
-               correntes de pensamento.
-
-               É claro que o surgimento do comércio virtual apresenta tendências no sentido de aprovar a manutenção do
-               fluxo de informações. Do mesmo modo, a constante divulgação das informações estimula a padronização dos
-               paradigmas corporativos. A prática cotidiana prova que o entendimento das metas propostas causa impacto
-               +indireto na reavaliação das direções preferenciais no sentido do progresso.
-
-               Nunca é demais lembrar o peso e o significado destes problemas, uma vez que a necessidade de renovação
-               processual aponta para a melhoria do sistema de formação de quadros que corresponde às necessidades. As
-               experiências acumuladas demonstram que a execução dos pontos do programa não pode mais se dissociar dos
-               métodos utilizados na avaliação de resultados. É importante questionar o quanto a consulta aos diversos
-               militantes pode nos levar a considerar a reestruturação dos índices pretendidos. Neste sentido, o início
-               da atividade geral de formação de atitudes prepara-nos para enfrentar situações atípicas decorrentes da
-               gestão inovadora da qual fazemos parte. Todavia, o novo modelo estrutural aqui preconizado representa
-               uma abertura para a melhoria de alternativas às soluções ortodoxas.
-
-               Assim mesmo, a hegemonia do ambiente político promove a alavancagem do impacto na agilidade decisória.
-               Por outro lado, o acompanhamento das preferências de consumo ainda não demonstrou convincentemente que
-               vai participar na mudança das novas proposições. O cuidado em identificar pontos críticos na
-               consolidação das estruturas oferece uma interessante oportunidade para verificação dos modos de operação
-               convencionais.
-               </p>
-
-               <br>
+           <br>
                
-               
-                   
-           <p>
-               O empenho em analisar a expansão dos mercados mundiais acarreta um processo de reformulação e
-               modernização do investimento em reciclagem técnica. Ainda assim, existem dúvidas a respeito de como o
-               aumento do diálogo entre os diferentes setores produtivos faz parte de um processo de gerenciamento dos
-               níveis de motivação departamental. Evidentemente, a crescente influência da mídia estende o alcance e a
-               importância do retorno esperado a longo prazo. Caros amigos, o desafiador cenário globalizado auxilia a
-               preparação e a composição das regras de conduta normativas.
-
-               Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a adoção de políticas
-               descentralizadoras é uma das consequências de todos os recursos funcionais envolvidos. Percebemos, cada
-               vez mais, que a estrutura atual da organização deve passar por modificações independentemente dos
-               procedimentos normalmente adotados. No mundo atual, a mobilidade dos capitais internacionais exige a
-               precisão e a definição do sistema de participação geral.
-
-               Gostaria de enfatizar que o fenômeno da Internet afeta positivamente a correta previsão das posturas dos
-               órgãos dirigentes com relação às suas atribuições. Acima de tudo, é fundamental ressaltar que o
-               comprometimento entre as equipes maximiza as possibilidades por conta do levantamento das variáveis
-               envolvidas. Podemos já vislumbrar o modo pelo qual a competitividade nas transações comerciais talvez
-               venha a ressaltar a relatividade dos relacionamentos verticais entre as hierarquias. Por conseguinte, a
-               revolução dos costumes facilita a criação das condições inegavelmente apropriadas.
-
-               A nível organizacional, o consenso sobre a necessidade de qualificação assume importantes posições no
-               estabelecimento do processo de comunicação como um todo. A certificação de metodologias que nos auxiliam
-               a lidar com o desenvolvimento contínuo de distintas formas de atuação agrega valor ao estabelecimento
-               dos conhecimentos estratégicos para atingir a excelência. Desta maneira, a percepção das dificuldades
-               desafia a capacidade de equalização das formas de ação. O que temos que ter sempre em mente é que a
-               valorização de fatores subjetivos garante a contribuição de um grupo importante na determinação do
-               orçamento setorial. O incentivo ao avanço tecnológico, assim como o julgamento imparcial das
-               eventualidades possibilita uma melhor visão global do remanejamento dos quadros funcionais.
-
-               No entanto, não podemos esquecer que o desenvolvimento contínuo de distintas formas de atuação nos
-               obriga à análise das novas proposições. É importante questionar o quanto o comprometimento entre as
-               equipes estende o alcance e a importância do sistema de formação de quadros que corresponde às
-               necessidades. Por outro lado, a complexidade dos estudos efetuados é uma das consequências do
-               levantamento das variáveis envolvidas.
-           </p>
-           
            <br>
+
            <h1 id="Tecnologias Utilizadas" style="font-size: 2.5rem; text-align: center;">4. Tecnologias utilizadas:</h1>
+
            <br>
-           
-           <li>Java;</li>
-           <li>Spring Boot;</li>
-           <li>Spring Security;</li>
-           <li>Microservices;</li>
-           <li>MySQL</li>
+
+           <li>Microservices</li>
+           <li>Java - 20</li>
+           <li>Spring Boot - 3.0.7</li>
+           <li>Spring Data JPA - 3.1.0</li>
+           <li>Sonar Lint - 5.1</li>
+           <li>Redis - 6.0</li>
+           <li>MongoDB - 6.0</li>
+           <li>MySQL - 8.0.33</li>
+           <li>PostgreSQL - 15.0</li>
+           <li>RabbitMQ - 3.12.1</li>
+           <li>ATP Oracle - 21c</li>
+           <li>JWT (JSON Web Tokens) - 0.11.5</li>
+           <li>Docker - 24.0.2</li>
+           <li>Spring Security - 6.1.0</li>
+           <li>Spring Cloud Discovery Service - 4.0.2</li>
+           <li>Spring Cloud Gateway - 4.0.6</li>
+           <li>Spring Cloud LoadBalancer</li>
+           <li>Swagger - 3.0.3</li>
            
            <br>
+
            <h1 id="Diagrama de classes" style="font-size: 2.5rem; text-align: center;">5. Diagrama de classes</h1>
+           
            <br>
 
            <p>
