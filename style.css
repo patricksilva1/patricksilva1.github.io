@@ -6,7 +6,12 @@
     margin: 0;
     padding: 0;
 }
-
+.warning {
+    color: red;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  
 html {
     font-size: 62.5%;
 }

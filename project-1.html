@@ -17,28 +17,20 @@
     <title>patricksilva.me</title>
     <link rel="icon" href="img/icons/icon.png" sizes="16x16">
 </head>
-
 <body>
     <nav class="nav">
         <a href="index.html" class="logo">Patricksilva.me</a>
         <ul>
             <li> <a href="index.html"> Home</a></li>
             <li> <a href="index.html#projects">Projects</a></li>
-            <li> <a href="#blog"> Blog</a></li>
+            <li> <a href="#"> Blog</a></li>
         </ul>
     </nav>
 
-    <!--Seção da descrição do projeto-->
-    <section class="project" style="background-color: #fff;">
-
-        <div class="container-projects">
-
-            <h1 style="font-size: 3rem; text-align: center;">SatisFeats</h1>
-            <br><br><br>
-
-            <!-- Índice -->
-            <div class="indice a">
-                <p>Índice</p>
+    <!-- ESQUERDA -->
+    <div class="container2">
+        <div class="sidebar2">
+                <h1>Sumário:</h1>
                 <li><a href="#Visao geral" style="color: inherit;">1. Visao geral</a></li>
                 <li><a href="#Engenharia Requisitos" style="color: inherit;">2. Engenharia Requisitos</a></li>
                 <li><a href="#Arquitetura do Sistema" style="color: inherit;">3. Arquitetura do Sistema</a></li>
@@ -60,566 +52,556 @@
                 <li><a href="#Documentação e APIs" style="color: inherit;">19. Documentação e APIs</a></li>
                 <li><a href="#Considerações de escalabilidade horizontal" style="color: inherit;">20. Considerações de escalabilidade horizontal</a></li>
                 <li><a href="#Considerações de manutenção e evolução" style="color: inherit;">21. Considerações de manutenção e evolução</a></li>
-            </div>   
-            <br>
+        </div>
 
-            <!-- Visão Geral -->
-            <h1 style="font-size: 2.5rem; text-align: center;">1. Visão Geral</h1>
-            <br>
-            
-            <p>
-                O que temos que ter sempre em mente é que a crescente influência da mídia deve passar por modificações
-                independentemente do sistema de formação de quadros que corresponde às necessidades. No mundo atual, o
-                acompanhamento das preferências de consumo pode nos levar a considerar a reestruturação dos métodos
-                utilizados na avaliação de resultados. A certificação de metodologias que nos auxiliam a lidar com a
-                complexidade dos estudos efetuados auxilia a preparação e a composição dos conhecimentos estratégicos
-                para atingir a excelência. Percebemos, cada vez mais, que o fenômeno da Internet maximiza as
-                possibilidades por conta das diversas correntes de pensamento.
-            </p>
-
-            <!-- Engenharia de Requisitos -->
-            <h1 id="Engenharia Requisitos" style="font-size: 2.5rem; text-align: center;">2. Engenharia Requisitos</h1>
-            <br>
-            <h1 style="font-size: 2rem;">Requisitos funcionais:</h1>
-            <br>
-
-            <p>Gerenciamento de cardápio:</p>        
-            <p>- Adicionar, editar e excluir itens do cardápio.</p>
-            <p>- Suporte a categorias e subcategorias de itens.</p>
-            <p>- Adicionar descrições, imagens e preços aos itens.</p>
-            <br>
-
-            <p>Pedidos de delivery:</p>
-            <p>- Receber pedidos de delivery online.</p>
-            <p>- Integração com sistemas de pagamento online para processar pagamentos.</p>
-            <p>- Rastreamento de pedidos em tempo real para clientes e funcionários.</p>
-            <p>- Definir uma área de entrega e calcular taxas com base na localização.</p>
-            <br>
-
-            <p>Gerenciamento de pedidos:</p>
-            <p>- Exibir pedidos em tempo real para a equipe do restaurante.</p>
-            <P>- Aceitar, recusar ou adiar pedidos.</P>
-            <br>
-
-            <p>Reservas e gerenciamento de mesas:</p>
-            <p>- Sistema de reservas online para clientes.</p>
-            <p>- Definir a disponibilidade de mesas em tempo real.</p>
-            <p>- Gerenciamento de status de mesas.</p>
-            <p>- Atribuir pedidos a mesas específicas.</p>
-            <br>
-
-            <p>Controle de estoque:</p>
-            <p>- Acompanhamento do estoque de ingredientes e produtos.</p>
-            <p>- Alertas automáticos de estoque baixo ou vencido.</p>
-            <p>- Realizar pedidos de reposição automaticamente.</p>
-            <br>
-
-            <p>Relatórios e análises:</p>
-            <p>- Gerar relatórios de vendas, pedidos, estoque e desempenho do restaurante.</p>
-            <p>- Analisar dados para identificar tendências e oportunidades de melhoria.</p>
-            <p>- Exportar relatórios em diferentes formatos.</p>
-            <br>
-
-            <p>Integração com aplicativos de entrega:</p>
-            <p>- Conectar-se com serviços de entrega populares.</p>
-            <p>- Sincronizar pedidos recebidos por meio desses aplicativos.</p>
-            <br>
-
-            <p>Gestão de clientes:</p>
-            <p>- Banco de dados de clientes com informações de contato e histórico de pedidos.</p>
-            <p>- Enviar promoções e ofertas por e-mail.</p>
-            <br>
-
-            <p>Administração e segurança:</p>
-            <p>- Contas de usuário com diferentes níveis de acesso.</p>
-            <p>- Registro de atividades e auditoria de alterações no sistema.</p>
-            <p>- Proteção de dados pessoais e informações financeiras dos clientes.</p>
-            <br>
-
-            <h1 style="font-size: 2rem;">Requisitos não funcionais:</h1>
-            <br>
-
-            <p>
-                São requisitos que expressam condições que o software deve atender ou qualidades específicas que o software deve ter.
-                Em vez de informar o que o sistema fará, os requisitos não-funcionais colocam restrições no sistema. 
-            </p>   
-            <br>
-
-            <p>O software deve ser compatível com os browsers IE (versão 5.0 ou superior) e Firefox (1.0 ou superior);</p>
-            
-            <p>Usabilidade:</p>
-            <p>- Interface intuitiva e fácil de usar para clientes e funcionários.</p>
-            <p>- Tempo de resposta rápido ao realizar ações no software.</p>
-            <br>
-
-            <p>Desempenho:</p>
-            <p>- Capacidade de lidar com um grande número de pedidos e clientes simultaneamente.</p>
-            <p>- Tempo de carregamento rápido do sistema e processamento eficiente de dados.</p>
-            <p>O software deve garantir que o tempo de retorno das consultas não seja maior do que 5 segundos.</p>
-            <br>
-
-            <p>Confiabilidade:</p>
-            <p>- Sistema estável e confiável, com baixa possibilidade de falhas ou interrupções.</p>
-            <p>- Backup regular dos dados para evitar perdas.</p>
-            <br>
-
-            <p>Segurança:</p>
-            <p>- Proteção de dados sensíveis, como informações de pagamento e dados dos clientes.</p>
-            <p>- Acesso seguro às contas de usuário com autenticação adequada.</p>
-            <br>
-
-            <p>Escalabilidade:</p>
-            <p>- Capacidade de dimensionar o sistema para lidar com o crescimento do restaurante e do delivery.</p>
-            <br>
-
-            <p>Compatibilidade:</p>
-            <p>- Compatibilidade com diferentes dispositivos (computadores, tablets, smartphones).</p>
-            <p>- Integração com sistemas de pagamento e serviços de entrega externos.</p>
-            <br>
-
-            <p>Manutenção:</p>
-            <p>- Facilidade de manutenção do software, incluindo atualizações e correções de bugs.</p>
-
-            <br>
-            <h1 id="Arquitetura do Sistema" style="font-size: 2.5rem; text-align: center;">3. Aquitetura do Sistema</h1>
-            <br>
+        <!-- DIREITA -->
+        <div class="container-projects">
+        <div class="content2">
+           <!-- Visão Geral -->
+           <h1 id="Visao geral" style="font-size: 2.5rem; text-align: center;">1. Visão Geral</h1>
+           <br>
            
-            <p  >
-                O que temos que ter sempre em mente é que a crescente influência da mídia deve passar por modificações
-                independentemente do sistema de formação de quadros que corresponde às necessidades. No mundo atual, o
-            </p>
+           <p>O Objetivo:</p>
+           <p>
+               O que temos que ter sempre em mente é que a crescente influência da mídia deve passar por modificações
+               independentemente do sistema de formação de quadros que corresponde às necessidades. No mundo atual, o
+               acompanhamento das preferências de consumo pode nos levar a considerar a reestruturação dos métodos
+               utilizados na avaliação de resultados. A certificação de metodologias que nos auxiliam a lidar com a
+               complexidade dos estudos efetuados auxilia a preparação e a composição dos conhecimentos estratégicos
+               para atingir a excelência. Percebemos, cada vez mais, que o fenômeno da Internet maximiza as
+               possibilidades por conta das diversas correntes de pensamento.
+           </p>
 
-            <br>
-            <img src="img/diagrams/CourseDiagram.jpg" alt="Diagram 1">
-            <br>
+           <!-- Engenharia de Requisitos -->
+           <h1 id="Engenharia Requisitos" style="font-size: 2.5rem; text-align: center;">2. Engenharia Requisitos</h1>
+           <br>
+           <h1 style="font-size: 2rem;">Requisitos funcionais:</h1>
+           <br>
 
-            <p>
-                O que temos que ter sempre em mente é que a crescente influência da mídia deve passar por modificações
-                independentemente do sistema de formação de quadros que corresponde às necessidades. No mundo atual, o
-                acompanhamento das preferências de consumo pode nos levar a considerar a reestruturação dos métodos
-                utilizados na avaliação de resultados. A certificação de metodologias que nos auxiliam a lidar com a
-                complexidade dos estudos efetuados auxilia a preparação e a composição dos conhecimentos estratégicos
-                para atingir a excelência. Percebemos, cada vez mais, que o fenômeno da Internet maximiza as
-                possibilidades por conta das diversas correntes de pensamento.
-            </p>
+           <p>Gerenciamento de cardápio:</p>        
+           <p>- Adicionar, editar e excluir itens do cardápio.</p>
+           <p>- Suporte a categorias e subcategorias de itens.</p>
+           <p>- Adicionar descrições, imagens e preços aos itens.</p>
+           <br>
 
-            <p>
-                No entanto, não podemos esquecer que a determinação clara de objetivos nos obriga à análise das
-                condições financeiras e administrativas exigidas. Não obstante, a complexidade dos estudos efetuados
-                cumpre um papel essencial na formulação das diretrizes de desenvolvimento para o futuro. Pensando mais a
-                longo prazo, a contínua expansão de nossa atividade obstaculiza a apreciação da importância das diversas
-                correntes de pensamento.
+           <p>Pedidos de delivery:</p>
+           <p>- Receber pedidos de delivery online.</p>
+           <p>- Integração com sistemas de pagamento online para processar pagamentos.</p>
+           <p>- Rastreamento de pedidos em tempo real para clientes e funcionários.</p>
+           <p>- Definir uma área de entrega e calcular taxas com base na localização.</p>
+           <br>
 
-                É claro que o surgimento do comércio virtual apresenta tendências no sentido de aprovar a manutenção do
-                fluxo de informações. Do mesmo modo, a constante divulgação das informações estimula a padronização dos
-                paradigmas corporativos. A prática cotidiana prova que o entendimento das metas propostas causa impacto
-                +indireto na reavaliação das direções preferenciais no sentido do progresso.
+           <p>Gerenciamento de pedidos:</p>
+           <p>- Exibir pedidos em tempo real para a equipe do restaurante.</p>
+           <P>- Aceitar, recusar ou adiar pedidos.</P>
+           <br>
 
-                Nunca é demais lembrar o peso e o significado destes problemas, uma vez que a necessidade de renovação
-                processual aponta para a melhoria do sistema de formação de quadros que corresponde às necessidades. As
-                experiências acumuladas demonstram que a execução dos pontos do programa não pode mais se dissociar dos
-                métodos utilizados na avaliação de resultados. É importante questionar o quanto a consulta aos diversos
-                militantes pode nos levar a considerar a reestruturação dos índices pretendidos. Neste sentido, o início
-                da atividade geral de formação de atitudes prepara-nos para enfrentar situações atípicas decorrentes da
-                gestão inovadora da qual fazemos parte. Todavia, o novo modelo estrutural aqui preconizado representa
-                uma abertura para a melhoria de alternativas às soluções ortodoxas.
+           <p>Reservas e gerenciamento de mesas:</p>
+           <p>- Sistema de reservas online para clientes.</p>
+           <p>- Definir a disponibilidade de mesas em tempo real.</p>
+           <p>- Gerenciamento de status de mesas.</p>
+           <p>- Atribuir pedidos a mesas específicas.</p>
+           <br>
 
-                Assim mesmo, a hegemonia do ambiente político promove a alavancagem do impacto na agilidade decisória.
-                Por outro lado, o acompanhamento das preferências de consumo ainda não demonstrou convincentemente que
-                vai participar na mudança das novas proposições. O cuidado em identificar pontos críticos na
-                consolidação das estruturas oferece uma interessante oportunidade para verificação dos modos de operação
-                convencionais.
-                </p>
+           <p>Controle de estoque:</p>
+           <p>- Acompanhamento do estoque de ingredientes e produtos.</p>
+           <p>- Alertas automáticos de estoque baixo ou vencido.</p>
+           <p>- Realizar pedidos de reposição automaticamente.</p>
+           <br>
 
-                <br>
-                
-                
-                    
-            <p>
-                O empenho em analisar a expansão dos mercados mundiais acarreta um processo de reformulação e
-                modernização do investimento em reciclagem técnica. Ainda assim, existem dúvidas a respeito de como o
-                aumento do diálogo entre os diferentes setores produtivos faz parte de um processo de gerenciamento dos
-                níveis de motivação departamental. Evidentemente, a crescente influência da mídia estende o alcance e a
-                importância do retorno esperado a longo prazo. Caros amigos, o desafiador cenário globalizado auxilia a
-                preparação e a composição das regras de conduta normativas.
+           <p>Relatórios e análises:</p>
+           <p>- Gerar relatórios de vendas, pedidos, estoque e desempenho do restaurante.</p>
+           <p>- Analisar dados para identificar tendências e oportunidades de melhoria.</p>
+           <p>- Exportar relatórios em diferentes formatos.</p>
+           <br>
 
-                Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a adoção de políticas
-                descentralizadoras é uma das consequências de todos os recursos funcionais envolvidos. Percebemos, cada
-                vez mais, que a estrutura atual da organização deve passar por modificações independentemente dos
-                procedimentos normalmente adotados. No mundo atual, a mobilidade dos capitais internacionais exige a
-                precisão e a definição do sistema de participação geral.
+           <p>Integração com aplicativos de entrega:</p>
+           <p>- Conectar-se com serviços de entrega populares.</p>
+           <p>- Sincronizar pedidos recebidos por meio desses aplicativos.</p>
+           <br>
 
-                Gostaria de enfatizar que o fenômeno da Internet afeta positivamente a correta previsão das posturas dos
-                órgãos dirigentes com relação às suas atribuições. Acima de tudo, é fundamental ressaltar que o
-                comprometimento entre as equipes maximiza as possibilidades por conta do levantamento das variáveis
-                envolvidas. Podemos já vislumbrar o modo pelo qual a competitividade nas transações comerciais talvez
-                venha a ressaltar a relatividade dos relacionamentos verticais entre as hierarquias. Por conseguinte, a
-                revolução dos costumes facilita a criação das condições inegavelmente apropriadas.
+           <p>Gestão de clientes:</p>
+           <p>- Banco de dados de clientes com informações de contato e histórico de pedidos.</p>
+           <p>- Enviar promoções e ofertas por e-mail.</p>
+           <br>
 
-                A nível organizacional, o consenso sobre a necessidade de qualificação assume importantes posições no
-                estabelecimento do processo de comunicação como um todo. A certificação de metodologias que nos auxiliam
-                a lidar com o desenvolvimento contínuo de distintas formas de atuação agrega valor ao estabelecimento
-                dos conhecimentos estratégicos para atingir a excelência. Desta maneira, a percepção das dificuldades
-                desafia a capacidade de equalização das formas de ação. O que temos que ter sempre em mente é que a
-                valorização de fatores subjetivos garante a contribuição de um grupo importante na determinação do
-                orçamento setorial. O incentivo ao avanço tecnológico, assim como o julgamento imparcial das
-                eventualidades possibilita uma melhor visão global do remanejamento dos quadros funcionais.
+           <p>Administração e segurança:</p>
+           <p>- Contas de usuário com diferentes níveis de acesso.</p>
+           <p>- Registro de atividades e auditoria de alterações no sistema.</p>
+           <p>- Proteção de dados pessoais e informações financeiras dos clientes.</p>
+           <br>
 
-                No entanto, não podemos esquecer que o desenvolvimento contínuo de distintas formas de atuação nos
-                obriga à análise das novas proposições. É importante questionar o quanto o comprometimento entre as
-                equipes estende o alcance e a importância do sistema de formação de quadros que corresponde às
-                necessidades. Por outro lado, a complexidade dos estudos efetuados é uma das consequências do
-                levantamento das variáveis envolvidas.
-            </p>
-            
-            <br>
-            <h1 id="Tecnologias Utilizadas" style="font-size: 2.5rem; text-align: center;">4. Tecnologias utilizadas:</h1>
-            <br>
-            
-            <li>Java;</li>
-            <li>Spring Boot;</li>
-            <li>Spring Security;</li>
-            <li>Microservices;</li>
-            <li>MySQL</li>
-            
-            <br>
-            <h1 id="Diagrama de classes" style="font-size: 2.5rem; text-align: center;">5. Diagrama de classes</h1>
-            <br>
+           <h1 style="font-size: 2rem;">Requisitos não funcionais:</h1>
+           <br>
 
-            <p>
-                É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
-                conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
-                diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
-                Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
-                reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
-                posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
-                comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
-            </p>  
+           <p>
+               São requisitos que expressam condições que o software deve atender ou qualidades específicas que o software deve ter.
+               Em vez de informar o que o sistema fará, os requisitos não-funcionais colocam restrições no sistema. 
+           </p>   
+           <br>
 
-            <br>
-            <img src="img/diagrams/Diagram-Course-White-545x963.jpg" alt="Diagram 1">
-            <br>
+           <p>O software deve ser compatível com os browsers IE (versão 5.0 ou superior) e Firefox (1.0 ou superior);</p>
+           
+           <p>Usabilidade:</p>
+           <p>- Interface intuitiva e fácil de usar para clientes e funcionários.</p>
+           <p>- Tempo de resposta rápido ao realizar ações no software.</p>
+           <br>
 
-            <p>
-                É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
-                conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
-                diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
-                Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
-                reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
-                posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
-                comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
-            </p>  
+           <p>Desempenho:</p>
+           <p>- Capacidade de lidar com um grande número de pedidos e clientes simultaneamente.</p>
+           <p>- Tempo de carregamento rápido do sistema e processamento eficiente de dados.</p>
+           <p>O software deve garantir que o tempo de retorno das consultas não seja maior do que 5 segundos.</p>
+           <br>
 
-            <br>
-            <h1 id="Componentes principais" style="font-size: 2.5rem; text-align: center;">6. Componentes principais</h1>
-            <br>
+           <p>Confiabilidade:</p>
+           <p>- Sistema estável e confiável, com baixa possibilidade de falhas ou interrupções.</p>
+           <p>- Backup regular dos dados para evitar perdas.</p>
+           <br>
 
-            <p>
-                É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
-                conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
-                diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
-                Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
-                reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
-                posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
-                comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
-            </p>  
+           <p>Segurança:</p>
+           <p>- Proteção de dados sensíveis, como informações de pagamento e dados dos clientes.</p>
+           <p>- Acesso seguro às contas de usuário com autenticação adequada.</p>
+           <br>
 
-            <br>
-            <h1 id="Autenticação e autorização" style="font-size: 2.5rem; text-align: center;">7. Autenticação e autorização</h1>
-            <br>
+           <p>Escalabilidade:</p>
+           <p>- Capacidade de dimensionar o sistema para lidar com o crescimento do restaurante e do delivery.</p>
+           <br>
 
-            <p>
-                É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
-                conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
-                diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
-                Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
-                reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
-                posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
-                comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
-            </p>  
+           <p>Compatibilidade:</p>
+           <p>- Compatibilidade com diferentes dispositivos (computadores, tablets, smartphones).</p>
+           <p>- Integração com sistemas de pagamento e serviços de entrega externos.</p>
+           <br>
 
-            <br>
-            <h1 id="APIs e endpoints" style="font-size: 2.5rem; text-align: center;">8. APIs e endpoints</h1>
-            <br>
+           <p>Manutenção:</p>
+           <p>- Facilidade de manutenção do software, incluindo atualizações e correções de bugs.</p>
 
-            <p>
-                É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
-                conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
-                diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
-                Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
-                reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
-                posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
-                comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
-            </p>
+           <br>
+           <h1 id="Arquitetura do Sistema" style="font-size: 2.5rem; text-align: center;">3. Aquitetura do Sistema</h1>
+           <br>
+          
+           <p  >
+               O que temos que ter sempre em mente é que a crescente influência da mídia deve passar por modificações
+               independentemente do sistema de formação de quadros que corresponde às necessidades. No mundo atual, o
+           </p>
 
-            <br>
-            <h1 id="Gerenciamento de dados" style="font-size: 2.5rem; text-align: center;">9. Gerenciamento de dados</h1>
-            <br>
+           <br>
+           <img src="img/diagrams/CourseDiagram.jpg" alt="Diagram 1">
+           <br>
 
-            <p>
-                É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
-                conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
-                diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
-                Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
-                reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
-                posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
-                comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
-            </p>  
+           <p>
+               O que temos que ter sempre em mente é que a crescente influência da mídia deve passar por modificações
+               independentemente do sistema de formação de quadros que corresponde às necessidades. No mundo atual, o
+               acompanhamento das preferências de consumo pode nos levar a considerar a reestruturação dos métodos
+               utilizados na avaliação de resultados. A certificação de metodologias que nos auxiliam a lidar com a
+               complexidade dos estudos efetuados auxilia a preparação e a composição dos conhecimentos estratégicos
+               para atingir a excelência. Percebemos, cada vez mais, que o fenômeno da Internet maximiza as
+               possibilidades por conta das diversas correntes de pensamento.
+           </p>
 
-            <br>
-            <h1 id="Escalabilidade e desempenho" style="font-size: 2.5rem; text-align: center;">10. Escalabilidade e desempenho</h1>
-            <br>
-            
-            <p>
-                É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
-                conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
-                diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
-                Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
-                reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
-                posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
-                comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
-            </p>  
+           <p>
+               No entanto, não podemos esquecer que a determinação clara de objetivos nos obriga à análise das
+               condições financeiras e administrativas exigidas. Não obstante, a complexidade dos estudos efetuados
+               cumpre um papel essencial na formulação das diretrizes de desenvolvimento para o futuro. Pensando mais a
+               longo prazo, a contínua expansão de nossa atividade obstaculiza a apreciação da importância das diversas
+               correntes de pensamento.
 
-            <br>
-            <h1 id="Considerações de segurança" style="font-size: 2.5rem; text-align: center;">11. Considerações de segurança</h1>
-            <br>
-            
-            <p>
-                É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
-                conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
-                diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
-                Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
-                reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
-                posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
-                comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
-            </p>  
+               É claro que o surgimento do comércio virtual apresenta tendências no sentido de aprovar a manutenção do
+               fluxo de informações. Do mesmo modo, a constante divulgação das informações estimula a padronização dos
+               paradigmas corporativos. A prática cotidiana prova que o entendimento das metas propostas causa impacto
+               +indireto na reavaliação das direções preferenciais no sentido do progresso.
 
-            <br>
-            <h1 id="Gerenciamento de erros" style="font-size: 2.5rem; text-align: center;">12. Gerenciamento de erros</h1>
-            <br>
-            
-            <p>
-                É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
-                conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
-                diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
-                Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
-                reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
-                posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
-                comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
-            </p>  
+               Nunca é demais lembrar o peso e o significado destes problemas, uma vez que a necessidade de renovação
+               processual aponta para a melhoria do sistema de formação de quadros que corresponde às necessidades. As
+               experiências acumuladas demonstram que a execução dos pontos do programa não pode mais se dissociar dos
+               métodos utilizados na avaliação de resultados. É importante questionar o quanto a consulta aos diversos
+               militantes pode nos levar a considerar a reestruturação dos índices pretendidos. Neste sentido, o início
+               da atividade geral de formação de atitudes prepara-nos para enfrentar situações atípicas decorrentes da
+               gestão inovadora da qual fazemos parte. Todavia, o novo modelo estrutural aqui preconizado representa
+               uma abertura para a melhoria de alternativas às soluções ortodoxas.
 
-            <br>
-            <h1 id="Testes automatizados" style="font-size: 2.5rem; text-align: center;">13. Testes automatizados</h1>
-            <br>
+               Assim mesmo, a hegemonia do ambiente político promove a alavancagem do impacto na agilidade decisória.
+               Por outro lado, o acompanhamento das preferências de consumo ainda não demonstrou convincentemente que
+               vai participar na mudança das novas proposições. O cuidado em identificar pontos críticos na
+               consolidação das estruturas oferece uma interessante oportunidade para verificação dos modos de operação
+               convencionais.
+               </p>
 
-            <p>
-                O empenho em analisar o entendimento das metas propostas afeta positivamente a correta previsão do
-                orçamento setorial. Do mesmo modo, o fenômeno da Internet exige a precisão e a definição dos paradigmas
-                corporativos. Todavia, o julgamento imparcial das eventualidades oferece uma interessante oportunidade
-                para verificação das regras de conduta normativas.
+               <br>
+               
+               
+                   
+           <p>
+               O empenho em analisar a expansão dos mercados mundiais acarreta um processo de reformulação e
+               modernização do investimento em reciclagem técnica. Ainda assim, existem dúvidas a respeito de como o
+               aumento do diálogo entre os diferentes setores produtivos faz parte de um processo de gerenciamento dos
+               níveis de motivação departamental. Evidentemente, a crescente influência da mídia estende o alcance e a
+               importância do retorno esperado a longo prazo. Caros amigos, o desafiador cenário globalizado auxilia a
+               preparação e a composição das regras de conduta normativas.
 
-                É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
-                conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
-                diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
-                Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
-                reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
-                posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
-                comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
+               Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a adoção de políticas
+               descentralizadoras é uma das consequências de todos os recursos funcionais envolvidos. Percebemos, cada
+               vez mais, que a estrutura atual da organização deve passar por modificações independentemente dos
+               procedimentos normalmente adotados. No mundo atual, a mobilidade dos capitais internacionais exige a
+               precisão e a definição do sistema de participação geral.
 
-                O que temos que ter sempre em mente é que a revolução dos costumes estende o alcance e a importância dos
-                modos de operação convencionais. A nível organizacional, a necessidade de renovação processual
-                possibilita uma melhor visão global de alternativas às soluções ortodoxas. No entanto, não podemos
-                esquecer que a estrutura atual da organização não pode mais se dissociar dos índices pretendidos. Todas
-                estas questões, devidamente ponderadas, levantam dúvidas sobre se a crescente influência da mídia deve
-                passar por modificações independentemente dos relacionamentos verticais entre as hierarquias.
-                Percebemos, cada vez mais, que a expansão dos mercados mundiais ainda não demonstrou convincentemente
-                que vai participar na mudança dos procedimentos normalmente adotados.
-            </p>
-            <br>
+               Gostaria de enfatizar que o fenômeno da Internet afeta positivamente a correta previsão das posturas dos
+               órgãos dirigentes com relação às suas atribuições. Acima de tudo, é fundamental ressaltar que o
+               comprometimento entre as equipes maximiza as possibilidades por conta do levantamento das variáveis
+               envolvidas. Podemos já vislumbrar o modo pelo qual a competitividade nas transações comerciais talvez
+               venha a ressaltar a relatividade dos relacionamentos verticais entre as hierarquias. Por conseguinte, a
+               revolução dos costumes facilita a criação das condições inegavelmente apropriadas.
 
-            <p >SHA256Helper.java</p>
-            <!-- Code  -->
-                <pre><code class="language-java" style="font-size: 1.7rem;" >
-                    import java.security.MessageDigest;
+               A nível organizacional, o consenso sobre a necessidade de qualificação assume importantes posições no
+               estabelecimento do processo de comunicação como um todo. A certificação de metodologias que nos auxiliam
+               a lidar com o desenvolvimento contínuo de distintas formas de atuação agrega valor ao estabelecimento
+               dos conhecimentos estratégicos para atingir a excelência. Desta maneira, a percepção das dificuldades
+               desafia a capacidade de equalização das formas de ação. O que temos que ter sempre em mente é que a
+               valorização de fatores subjetivos garante a contribuição de um grupo importante na determinação do
+               orçamento setorial. O incentivo ao avanço tecnológico, assim como o julgamento imparcial das
+               eventualidades possibilita uma melhor visão global do remanejamento dos quadros funcionais.
 
-                    public class SHA256Helper {
-                    
-                        public static String hash(String data) {
-                    
-                            try {
-                    
-                                MessageDigest digest = MessageDigest.getInstance("SHA-256");
-                                byte[] hash = digest.digest(data.getBytes("UTF-8"));
-                    
-                                StringBuilder hexadecimalString = new StringBuilder();
-                    
-                                for (int i = 0; i < hash.length; i++) {
-                                    String hexadecimal = Integer.toHexString(0xff & hash[i]);
-                    
-                                    if (hexadecimal.length() == 1) {
-                                        hexadecimalString.append('0');
-                                    }
-                    
-                                    hexadecimalString.append(hexadecimal);
-                                }
-                    
-                                return hexadecimalString.toString();
-                    
-                            } catch (Exception e) {
-                                throw new RuntimeException(e);
-                            }
-                        }
-                    }
-                    </code>
-                </pre>
-            <!--  -->
+               No entanto, não podemos esquecer que o desenvolvimento contínuo de distintas formas de atuação nos
+               obriga à análise das novas proposições. É importante questionar o quanto o comprometimento entre as
+               equipes estende o alcance e a importância do sistema de formação de quadros que corresponde às
+               necessidades. Por outro lado, a complexidade dos estudos efetuados é uma das consequências do
+               levantamento das variáveis envolvidas.
+           </p>
+           
+           <br>
+           <h1 id="Tecnologias Utilizadas" style="font-size: 2.5rem; text-align: center;">4. Tecnologias utilizadas:</h1>
+           <br>
+           
+           <li>Java;</li>
+           <li>Spring Boot;</li>
+           <li>Spring Security;</li>
+           <li>Microservices;</li>
+           <li>MySQL</li>
+           
+           <br>
+           <h1 id="Diagrama de classes" style="font-size: 2.5rem; text-align: center;">5. Diagrama de classes</h1>
+           <br>
 
-                <p>
-                    O que temos que ter sempre em mente é que a revolução dos costumes estende o alcance e a importância dos
-                    modos de operação convencionais. A nível organizacional, a necessidade de renovação processual
-                    possibilita uma melhor visão global de alternativas às soluções ortodoxas. No entanto, não podemos
-                    esquecer que a estrutura atual da organização não pode mais se dissociar dos índices pretendidos. Todas
-                    estas questões, devidamente ponderadas, levantam dúvidas sobre se a crescente influência da mídia deve
-                    passar por modificações independentemente dos relacionamentos verticais entre as hierarquias.
-                    Percebemos, cada vez mais, que a expansão dos mercados mundiais ainda não demonstrou convincentemente
-                    que vai participar na mudança dos procedimentos normalmente adotados.
-                </p>
+           <p>
+               É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
+               conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
+               diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
+               Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
+               reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
+               posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
+               comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
+           </p>  
 
-            <br>
-            <h1 id="Monitoramento e logs" style="font-size: 2.5rem; text-align: center;">14. Monitoramento e logs</h1>
-            <br>
+           <br>
+           <img src="img/diagrams/Diagram-Course-White-545x963.jpg" alt="Diagram 1">
+           <br>
 
-            <p>
-                É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
-                conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
-                diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
-                Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
-                reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
-                posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
-                comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
-            </p>  
+           <p>
+               É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
+               conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
+               diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
+               Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
+               reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
+               posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
+               comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
+           </p>  
 
-            <br>
-            <h1 id="Integração contínua e implantação contínua - CI/CD" style="font-size: 2.5rem; text-align: center;">15. Integração contínua e implantação contínua - CI/CD</h1>
-            <br>
+           <br>
+           <h1 id="Componentes principais" style="font-size: 2.5rem; text-align: center;">6. Componentes principais</h1>
+           <br>
 
-            <p>
-                É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
-                conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
-                diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
-                Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
-                reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
-                posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
-                comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
-            </p>  
+           <p>
+               É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
+               conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
+               diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
+               Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
+               reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
+               posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
+               comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
+           </p>  
 
-            <br>
-            <h1 id="Padrões de projeto" style="font-size: 2.5rem; text-align: center;">16. Padrões de projeto</h1>
-            <br>
-            
-            <p>
-                É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
-                conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
-                diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
-                Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
-                reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
-                posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
-                comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
-            </p>  
+           <br>
+           <h1 id="Autenticação e autorização" style="font-size: 2.5rem; text-align: center;">7. Autenticação e autorização</h1>
+           <br>
 
-            <br>
-            <h1 id="Performance e otimizações" style="font-size: 2.5rem; text-align: center;">17. Performance e otimizações</h1>
-            <br>
-            
-            <p>
-                É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
-                conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
-                diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
-                Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
-                reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
-                posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
-                comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
-            </p>  
+           <p>
+               É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
+               conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
+               diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
+               Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
+               reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
+               posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
+               comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
+           </p>  
 
-            <br>
-            <h1 id="Internacionalização e localização" style="font-size: 2.5rem; text-align: center;">18. Internacionalização e localização</h1>
-            <br>
-            
-            <p>
-                É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
-                conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
-                diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
-                Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
-                reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
-                posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
-                comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
-            </p>  
+           <br>
+           <h1 id="APIs e endpoints" style="font-size: 2.5rem; text-align: center;">8. APIs e endpoints</h1>
+           <br>
 
-            <br>
-            <h1 id="Documentação e APIs" style="font-size: 2.5rem; text-align: center; ">19. Documentação e APIs</h1>
-            <br>
-            
-            <p>
-                É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
-                conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
-                diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
-                Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
-                reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
-                posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
-                comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
-            </p>  
+           <p>
+               É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
+               conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
+               diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
+               Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
+               reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
+               posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
+               comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
+           </p>
 
-            <br>
-            <h1 id="Considerações de escalabilidade horizontal" style="font-size: 2.5rem; text-align: center;">20. Considerações de escalabilidade horizontal</h1>
-            <br>
+           <br>
+           <h1 id="Gerenciamento de dados" style="font-size: 2.5rem; text-align: center;">9. Gerenciamento de dados</h1>
+           <br>
 
-            <p>
-                É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
-                conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
-                diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
-                Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
-                reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
-                posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
-                comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
-            </p>  
+           <p>
+               É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
+               conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
+               diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
+               Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
+               reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
+               posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
+               comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
+           </p>  
 
-            <br>
-            <h1 id="Considerações de manutenção e evolução" style="font-size: 2.5rem; text-align: center;">21. Considerações de manutenção e evolução</h1>
-            <br>
+           <br>
+           <h1 id="Escalabilidade e desempenho" style="font-size: 2.5rem; text-align: center;">10. Escalabilidade e desempenho</h1>
+           <br>
+           
+           <p>
+               É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
+               conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
+               diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
+               Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
+               reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
+               posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
+               comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
+           </p>  
 
-            <p>
-                É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
-                conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
-                diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
-                Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
-                reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
-                posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
-                comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
-            </p>  
+           <br>
+           <h1 id="Considerações de segurança" style="font-size: 2.5rem; text-align: center;">11. Considerações de segurança</h1>
+           <br>
+           
+           <p>
+               É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
+               conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
+               diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
+               Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
+               reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
+               posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
+               comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
+           </p>  
+
+           <br>
+           <h1 id="Gerenciamento de erros" style="font-size: 2.5rem; text-align: center;">12. Gerenciamento de erros</h1>
+           <br>
+           
+           <p>
+               É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
+               conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
+               diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
+               Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
+               reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
+               posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
+               comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
+           </p>  
+
+           <br>
+           <h1 id="Testes automatizados" style="font-size: 2.5rem; text-align: center;">13. Testes automatizados</h1>
+           <br>
+
+           <p>
+               O empenho em analisar o entendimento das metas propostas afeta positivamente a correta previsão do
+               orçamento setorial. Do mesmo modo, o fenômeno da Internet exige a precisão e a definição dos paradigmas
+               corporativos. Todavia, o julgamento imparcial das eventualidades oferece uma interessante oportunidade
+               para verificação das regras de conduta normativas.
+
+               É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
+               conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
+               diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
+               Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
+               reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
+               posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
+               comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
+
+               O que temos que ter sempre em mente é que a revolução dos costumes estende o alcance e a importância dos
+               modos de operação convencionais. A nível organizacional, a necessidade de renovação processual
+               possibilita uma melhor visão global de alternativas às soluções ortodoxas. No entanto, não podemos
+               esquecer que a estrutura atual da organização não pode mais se dissociar dos índices pretendidos. Todas
+               estas questões, devidamente ponderadas, levantam dúvidas sobre se a crescente influência da mídia deve
+               passar por modificações independentemente dos relacionamentos verticais entre as hierarquias.
+               Percebemos, cada vez mais, que a expansão dos mercados mundiais ainda não demonstrou convincentemente
+               que vai participar na mudança dos procedimentos normalmente adotados.
+           </p>
+           <br>
+
+           <p >SHA256Helper.java</p>
+           <!-- Code  -->
+               <pre><code class="language-java" style="font-size: 1.7rem;" >
+                   import java.security.MessageDigest;
+
+                   public class SHA256Helper {
+                   
+                       public static String hash(String data) {
+                   
+                           try {
+                   
+                               MessageDigest digest = MessageDigest.getInstance("SHA-256");
+                               byte[] hash = digest.digest(data.getBytes("UTF-8"));
+                   
+                               StringBuilder hexadecimalString = new StringBuilder();
+                   
+                               for (int i = 0; i < hash.length; i++) {
+                                   String hexadecimal = Integer.toHexString(0xff & hash[i]);
+                   
+                                   if (hexadecimal.length() == 1) {
+                                       hexadecimalString.append('0');
+                                   }
+                   
+                                   hexadecimalString.append(hexadecimal);
+                               }
+                   
+                               return hexadecimalString.toString();
+                   
+                           } catch (Exception e) {
+                               throw new RuntimeException(e);
+                           }
+                       }
+                   }
+                   </code>
+               </pre>
+           <!--  -->
+
+               <p>
+                   O que temos que ter sempre em mente é que a revolução dos costumes estende o alcance e a importância dos
+                   modos de operação convencionais. A nível organizacional, a necessidade de renovação processual
+                   possibilita uma melhor visão global de alternativas às soluções ortodoxas. No entanto, não podemos
+                   esquecer que a estrutura atual da organização não pode mais se dissociar dos índices pretendidos. Todas
+                   estas questões, devidamente ponderadas, levantam dúvidas sobre se a crescente influência da mídia deve
+                   passar por modificações independentemente dos relacionamentos verticais entre as hierarquias.
+                   Percebemos, cada vez mais, que a expansão dos mercados mundiais ainda não demonstrou convincentemente
+                   que vai participar na mudança dos procedimentos normalmente adotados.
+               </p>
+
+           <br>
+           <h1 id="Monitoramento e logs" style="font-size: 2.5rem; text-align: center;">14. Monitoramento e logs</h1>
+           <br>
+
+           <p>
+               É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
+               conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
+               diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
+               Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
+               reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
+               posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
+               comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
+           </p>  
+
+           <br>
+           <h1 id="Integração contínua e implantação contínua - CI/CD" style="font-size: 2.5rem; text-align: center;">15. Integração contínua e implantação contínua - CI/CD</h1>
+           <br>
+
+           <p>
+               É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
+               conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
+               diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
+               Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
+               reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
+               posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
+               comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
+           </p>  
+
+           <br>
+           <h1 id="Padrões de projeto" style="font-size: 2.5rem; text-align: center;">16. Padrões de projeto</h1>
+           <br>
+           
+           <p>
+               É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
+               conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
+               diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
+               Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
+               reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
+               posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
+               comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
+           </p>  
+
+           <br>
+           <h1 id="Performance e otimizações" style="font-size: 2.5rem; text-align: center;">17. Performance e otimizações</h1>
+           <br>
+           
+           <p>
+               É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
+               conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
+               diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
+               Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
+               reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
+               posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
+               comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
+           </p>  
+
+           <br>
+           <h1 id="Internacionalização e localização" style="font-size: 2.5rem; text-align: center;">18. Internacionalização e localização</h1>
+           <br>
+           
+           <p>
+               É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
+               conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
+               diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
+               Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
+               reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
+               posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
+               comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
+           </p>  
+
+           <br>
+           <h1 id="Documentação e APIs" style="font-size: 2.5rem; text-align: center; ">19. Documentação e APIs</h1>
+           <br>
+           
+           <p>
+               É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
+               conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
+               diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
+               Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
+               reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
+               posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
+               comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
+           </p>  
+
+           <br>
+           <h1 id="Considerações de escalabilidade horizontal" style="font-size: 2.5rem; text-align: center;">20. Considerações de escalabilidade horizontal</h1>
+           <br>
+
+           <p>
+               É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
+               conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
+               diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
+               Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
+               reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
+               posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
+               comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
+           </p>  
+
+           <br>
+           <h1 id="Considerações de manutenção e evolução" style="font-size: 2.5rem; text-align: center;">21. Considerações de manutenção e evolução</h1>
+           <br>
+
+           <p>
+               É importante questionar o quanto a constante divulgação das informações maximiza as possibilidades por
+               conta do retorno esperado a longo prazo. Gostaria de enfatizar que o aumento do diálogo entre os
+               diferentes setores produtivos promove a alavancagem das diretrizes de desenvolvimento para o futuro.
+               Caros amigos, a consulta aos diversos militantes auxilia a preparação e a composição do investimento em
+               reciclagem técnica. Evidentemente, o acompanhamento das preferências de consumo assume importantes
+               posições no estabelecimento do remanejamento dos quadros funcionais. Assim mesmo, o surgimento do
+               comércio virtual facilita a criação da gestão inovadora da qual fazemos parte.
+           </p>  
 
 
-            <div id="voltarTopo">
-                <a href="#" id="subir">⬆</a>
-            </div>
-    </section>
-    </div>
-
-    <!-- Contacts -->
-    <div class="container" style="display: table;">
-        <div class="hero-text">
-            <span>
-                <a aria-label="linkedin" rel="noreferrer" target="_blank"
-                    href="https://www.linkedin.com/in/patrickloureirodasilva/"><i class="fa fa-linkedin"></i></a>
-                <a aria-label="github" rel="noreferrer" target="_blank" href="https://github.com/patricksilva1"> <i
-                        class="fa fa-github"></i></a>
-                <a aria-label="google" rel="noreferrer" target="_blank" href="mailto:patricksilva.me@gmail.com"> <i
-                        class="fa fa-google"></i></a>
-            </span>
+           <div id="voltarTopo">
+               <a href="#" id="subir">⬆</a>
+           </div>
         </div>
     </div>
+    </div>
 
-    <!-- Footer -->
-    <footer class="footer">
+     <!-- Footer -->
+     <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <h3>Copyright © 2023. All rights are reserved by Patrick L. da Silva</h3>
