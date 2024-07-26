@@ -3,20 +3,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Estudos | Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</title>
+<title>SQL | Estudos</title>
 <meta name="generator" content="Jekyll v4.3.2" />
-<meta property="og:title" content="Estudos" />
+<meta property="og:title" content="SQL" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<meta name="description" content="Diferença entre o DDL x DML no SQL." />
+<meta property="og:description" content="Diferença entre o DDL x DML no SQL." />
+<link rel="canonical" href="http://localhost:4000/sql/2024/07/25/sql.html" />
+<meta property="og:url" content="http://localhost:4000/sql/2024/07/25/sql.html" />
 <meta property="og:site_name" content="Estudos" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-07-25T21:50:58-03:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Estudos" />
+<meta property="twitter:title" content="SQL" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Estudos","name":"Estudos","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-07-25T21:50:58-03:00","datePublished":"2024-07-25T21:50:58-03:00","description":"Diferença entre o DDL x DML no SQL.","headline":"SQL","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/sql/2024/07/25/sql.html"},"url":"http://localhost:4000/sql/2024/07/25/sql.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Estudos" /></head>
 <body><header class="site-header" role="banner">
@@ -36,46 +37,43 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
-<h2 class="post-list-heading">Posts</h2>
-    <ul class="post-list"><li><span class="post-meta">Jul 25, 2024</span>
-        <h3>
-          <a class="post-link" href="/sql/2024/07/25/sql.html">
-            SQL
-          </a>
-        </h3></li><li><span class="post-meta">Jul 25, 2024</span>
-        <h3>
-          <a class="post-link" href="/soa/2024/07/25/soa.html">
-            SOA
-          </a>
-        </h3></li><li><span class="post-meta">Jul 25, 2024</span>
-        <h3>
-          <a class="post-link" href="/bd/2024/07/25/sistemas-operacionais.html">
-            Sistemas Operacionais (OS)
-          </a>
-        </h3></li><li><span class="post-meta">Jul 25, 2024</span>
-        <h3>
-          <a class="post-link" href="/bd/2024/07/25/banco-de-dados.html">
-            Banco De Dados
-          </a>
-        </h3></li><li><span class="post-meta">Jul 25, 2024</span>
-        <h3>
-          <a class="post-link" href="/jekyll/update/2024/07/25/welcome-to-jekyll.html">
-            Welcome to Jekyll!!!
-          </a>
-        </h3></li><li><span class="post-meta">Jul 25, 2024</span>
-        <h3>
-          <a class="post-link" href="/materias/2024/07/25/portugues.html">
-            Portugues
-          </a>
-        </h3></li><li><span class="post-meta">Jul 25, 2024</span>
-        <h3>
-          <a class="post-link" href="/materias/2024/07/25/Tecnologia-Da-Informacao.html">
-            Tecnologia Da Informação
-          </a>
-        </h3></li></ul>
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">SQL</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2024-07-25T21:50:58-03:00" itemprop="datePublished">Jul 25, 2024
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <blockquote>
+  <p>Diferença entre o DDL x DML no SQL.</p>
+</blockquote>
+
+<ul>
+  <li>DDL -&gt; CREATE, ALTER e DROP.</li>
+</ul>
+
+<p>Deu Merda Liga pro <code class="language-plaintext highlighter-rouge">SIDU</code>:</p>
+
+<ul>
+  <li>DML: <code class="language-plaintext highlighter-rouge">Select, Insert, Delete, Update</code> (SIDU)</li>
+</ul>
+
+<p><br /></p>
+<blockquote>
+  <p>CUBE</p>
+</blockquote>
+
+<p>Como o CUBE é usado no SQL.</p>
+
+<p>A função CUBE no SQL é usada em conjunto com a cláusula GROUP BY para gerar subtotais e totais cruzados em consultas.</p>
+
+<p>Ela cria todas as combinações possíveis de grupos de colunas especificadas na cláusula GROUP BY, fornecendo uma maneira conveniente de calcular totais para diferentes níveis de agregação.</p>
+
+  </div><a class="u-url" href="/sql/2024/07/25/sql.html" hidden></a>
+</article>
 
       </div>
     </main><footer class="site-footer h-card">

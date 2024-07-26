@@ -1,4 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-25T20:19:41-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Estudos</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!!!</title><link href="http://localhost:4000/jekyll/update/2024/07/25/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!!!" /><published>2024-07-25T19:28:58-03:00</published><updated>2024-07-25T19:28:58-03:00</updated><id>http://localhost:4000/jekyll/update/2024/07/25/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/07/25/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-25T22:42:33-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Estudos</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Banco De Dados</title><link href="http://localhost:4000/bd/2024/07/25/banco-de-dados.html" rel="alternate" type="text/html" title="Banco De Dados" /><published>2024-07-25T21:50:58-03:00</published><updated>2024-07-25T21:50:58-03:00</updated><id>http://localhost:4000/bd/2024/07/25/banco-de-dados</id><content type="html" xml:base="http://localhost:4000/bd/2024/07/25/banco-de-dados.html"><![CDATA[<p><code class="language-plaintext highlighter-rouge">Normalização de Tabelas</code></p>
+
+<blockquote>
+  <p>Formas Normais (FN)</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p>1 FN - Diz respeito aos problemas de atributos compostos e multivalorados. Desmembrar os atributos compostos e criar novas relações para os multivalorados.</p>
+  </li>
+  <li>
+    <p>2 FN - Para estar na 2 FN, primeiramente deve etar na 1 FN e ser dependente parcial de chaves.</p>
+  </li>
+  <li>
+    <p>3 FN - Precisa estar na 2 FN. Resolve o problema de dependencia funcional entre não-chaves.</p>
+  </li>
+  <li>
+    <p>FNBC - É a 3 FN com mais rigor. Resolve o problema onde tenha duas ou mais chaves candidatas (lembrando que uma PK também é uma chave candidata)</p>
+  </li>
+  <li>
+    <p>4 FN - Precisa estar na FNBC. Resolve o problema de dependência multivalorada.</p>
+  </li>
+  <li>
+    <p>5 FN - Precisa estar na 4 FNBC. Resolve o problema de dependência multipla entre os atributos de uma tabela.</p>
+  </li>
+</ul>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="BD" /><summary type="html"><![CDATA[Normalização de Tabelas]]></summary></entry><entry><title type="html">Sistemas Operacionais (OS)</title><link href="http://localhost:4000/bd/2024/07/25/sistemas-operacionais.html" rel="alternate" type="text/html" title="Sistemas Operacionais (OS)" /><published>2024-07-25T21:50:58-03:00</published><updated>2024-07-25T21:50:58-03:00</updated><id>http://localhost:4000/bd/2024/07/25/sistemas-operacionais</id><content type="html" xml:base="http://localhost:4000/bd/2024/07/25/sistemas-operacionais.html"><![CDATA[<blockquote>
+  <p>Diferença entre termos</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">Throughput</code> que são números de processos terminados por unidade de tempo;</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">Turnaround</code> que é o tempo transcorrido desde o momento em que o software entra e o instante em que termina sua execução;</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">Tempo de resposta</code>: intervalo entre a chegada ao sistema e inicio de sua execução;</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">Tempo de espera</code>: soma dos períodos em que o processo estava no seu estado pronto.</p>
+  </li>
+</ul>]]></content><author><name></name></author><category term="BD" /><summary type="html"><![CDATA[Diferença entre termos]]></summary></entry><entry><title type="html">SOA</title><link href="http://localhost:4000/soa/2024/07/25/soa.html" rel="alternate" type="text/html" title="SOA" /><published>2024-07-25T21:50:58-03:00</published><updated>2024-07-25T21:50:58-03:00</updated><id>http://localhost:4000/soa/2024/07/25/soa</id><content type="html" xml:base="http://localhost:4000/soa/2024/07/25/soa.html"><![CDATA[<blockquote>
+  <p>Diferença entre as composições SOA</p>
+</blockquote>
+
+<p>SOA (Service-Oriented Architecture): É um padrão de arquitetura de software que promove o baixo acoplamento entre os serviços.</p>
+
+<p>Em SOA, diferentes serviços interagem uns com os outros através de interfaces bem definidas usando protocolos comuns (como HTTP, SOAP, REST).</p>
+
+<ul>
+  <li>
+    <p>UDDI (Universal Description, Discovery, and Integration): É um padrão para a publicação e descoberta de serviços web. Ele fornece um mecanismo para descrever serviços (em XML), registrá-los em um diretório central e possibilitar que outros serviços ou clientes descubram e interajam com esses serviços.</p>
+  </li>
+  <li>
+    <p>O UDDI é, essencialmente, uma “lista telefônica” para serviços web, permitindo que as organizações publiquem informações sobre os serviços que oferecem e encontrem serviços oferecidos por outros.</p>
+  </li>
+  <li>
+    <p>Renderização de documentos XML em navegadores web: Isso é feito usando tecnologias como XSLT (Extensible Stylesheet Language Transformations) para transformar XML em HTML ou outros formatos que possam ser visualizados em um navegador web. Este processo é distinto do que o UDDI faz. Portanto, a função do UDDI na arquitetura SOA é fornecer uma infraestrutura para a descoberta e integração de serviços web, e não para a renderização de documentos XML em navegadores web.</p>
+  </li>
+</ul>]]></content><author><name></name></author><category term="SOA" /><summary type="html"><![CDATA[Diferença entre as composições SOA]]></summary></entry><entry><title type="html">SQL</title><link href="http://localhost:4000/sql/2024/07/25/sql.html" rel="alternate" type="text/html" title="SQL" /><published>2024-07-25T21:50:58-03:00</published><updated>2024-07-25T21:50:58-03:00</updated><id>http://localhost:4000/sql/2024/07/25/sql</id><content type="html" xml:base="http://localhost:4000/sql/2024/07/25/sql.html"><![CDATA[<blockquote>
+  <p>Diferença entre o DDL x DML no SQL.</p>
+</blockquote>
+
+<ul>
+  <li>DDL -&gt; CREATE, ALTER e DROP.</li>
+</ul>
+
+<p>Deu Merda Liga pro <code class="language-plaintext highlighter-rouge">SIDU</code>:</p>
+
+<ul>
+  <li>DML: <code class="language-plaintext highlighter-rouge">Select, Insert, Delete, Update</code> (SIDU)</li>
+</ul>
+
+<p><br /></p>
+<blockquote>
+  <p>CUBE</p>
+</blockquote>
+
+<p>Como o CUBE é usado no SQL.</p>
+
+<p>A função CUBE no SQL é usada em conjunto com a cláusula GROUP BY para gerar subtotais e totais cruzados em consultas.</p>
+
+<p>Ela cria todas as combinações possíveis de grupos de colunas especificadas na cláusula GROUP BY, fornecendo uma maneira conveniente de calcular totais para diferentes níveis de agregação.</p>]]></content><author><name></name></author><category term="SQL" /><summary type="html"><![CDATA[Diferença entre o DDL x DML no SQL.]]></summary></entry><entry><title type="html">Welcome to Jekyll!!!</title><link href="http://localhost:4000/jekyll/update/2024/07/25/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!!!" /><published>2024-07-25T19:28:58-03:00</published><updated>2024-07-25T19:28:58-03:00</updated><id>http://localhost:4000/jekyll/update/2024/07/25/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/07/25/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>Jekyll requires blog post files to be named according to the following format:</p>
 
