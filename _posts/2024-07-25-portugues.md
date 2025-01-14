@@ -18,4 +18,5 @@ Frase: O Senado é a Câmara alta do Congresso Nacional.
 
 O termo `a Câmara alta do Congresso Nacional` caracteriza o sujeito `Senado`, certo? Temos aqui um `predicativo do sujeito`.
 
+
 <embed src="/pdfs/gramatica.pdf" width="100%" height="600px" type="application/pdf">
