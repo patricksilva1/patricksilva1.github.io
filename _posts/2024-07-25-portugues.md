@@ -20,4 +20,4 @@ O termo `a Câmara alta do Congresso Nacional` caracteriza o sujeito `Senado`, c
 
 
 
-<embed src="/pdfs/gramatica.pdf" width="100%" height="600px" type="application/pdf">
+<embed src="/pdfs/gramatica.pdf" width="100%" height="900px" type="application/pdf">
