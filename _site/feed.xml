@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-16T09:07:43-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Estudos</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Arquitetura</title><link href="http://localhost:4000/categoria1/categoria2/2025/01/13/arquitetura.html" rel="alternate" type="text/html" title="Arquitetura" /><published>2025-01-13T09:00:00-03:00</published><updated>2025-01-13T09:00:00-03:00</updated><id>http://localhost:4000/categoria1/categoria2/2025/01/13/arquitetura</id><content type="html" xml:base="http://localhost:4000/categoria1/categoria2/2025/01/13/arquitetura.html"><![CDATA[<embed src="/pdfs/Fundamentals-of-Software-Architecture.pdf" width="100%" height="900px" type="application/pdf" />]]></content><author><name></name></author><category term="Categoria1" /><category term="Categoria2" /><category term="tag1" /><category term="tag2" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Big Data</title><link href="http://localhost:4000/categoria1/categoria2/2025/01/13/bigdata.html" rel="alternate" type="text/html" title="Big Data" /><published>2025-01-13T09:00:00-03:00</published><updated>2025-01-13T09:00:00-03:00</updated><id>http://localhost:4000/categoria1/categoria2/2025/01/13/bigdata</id><content type="html" xml:base="http://localhost:4000/categoria1/categoria2/2025/01/13/bigdata.html"><![CDATA[<p>Resumo:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-16T09:22:32-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Estudos</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">MER-DER-ER</title><link href="http://localhost:4000/categoria1/categoria2/2025/01/13/MER-DER-ER.html" rel="alternate" type="text/html" title="MER-DER-ER" /><published>2025-01-13T09:00:00-03:00</published><updated>2025-01-13T09:00:00-03:00</updated><id>http://localhost:4000/categoria1/categoria2/2025/01/13/MER-DER-ER</id><content type="html" xml:base="http://localhost:4000/categoria1/categoria2/2025/01/13/MER-DER-ER.html"><![CDATA[<p>Mapas Mentais:</p>
+
+<embed src="/pdfs/TI TOTAL - Aula 02 - Modelagem Entidade-Relacionamento - Mapa Mental - v2.pdf_protected.pdf" width="100%" height="900px" type="application/pdf" />
+
+<p>Questoes:</p>
+
+<embed src="/pdfs/TI TOTAL - Aula 02 - Modelagem Entidade-Relacionamento - Questões - v2.pdf_protected.pdf" width="100%" height="900px" type="application/pdf" />
+
+<p>Teoria:</p>
+
+<embed src="/pdfs/TI TOTAL - Aula 02 - Modelagem Entidade-Relacionamento - Teoria - v2.pdf_protected.pdf" width="100%" height="900px" type="application/pdf" />
+
+<p>Resumo:</p>
+
+<embed src="/pdfs/TI TOTAL - Aula 02 - Modelagem Entidade-Relacionamento - Resumo - v2.pdf_protected.pdf" width="100%" height="900px" type="application/pdf" />]]></content><author><name></name></author><category term="Categoria1" /><category term="Categoria2" /><category term="tag1" /><category term="tag2" /><summary type="html"><![CDATA[Mapas Mentais:]]></summary></entry><entry><title type="html">UML</title><link href="http://localhost:4000/categoria1/categoria2/2025/01/13/UML.html" rel="alternate" type="text/html" title="UML" /><published>2025-01-13T09:00:00-03:00</published><updated>2025-01-13T09:00:00-03:00</updated><id>http://localhost:4000/categoria1/categoria2/2025/01/13/UML</id><content type="html" xml:base="http://localhost:4000/categoria1/categoria2/2025/01/13/UML.html"><![CDATA[<p>Resumo:</p>
+
+<embed src="/pdfs/TI TOTAL - Aula 48 - Unified Modeling Language (UML) - Resumo_protected.pdf" width="100%" height="900px" type="application/pdf" />
+
+<p>Teoria:</p>
+
+<embed src="/pdfs/TI TOTAL - Aula 48 - Unified Modeling Language (UML) - Teoria_protected.pdf" width="100%" height="900px" type="application/pdf" />]]></content><author><name></name></author><category term="Categoria1" /><category term="Categoria2" /><category term="tag1" /><category term="tag2" /><summary type="html"><![CDATA[Resumo:]]></summary></entry><entry><title type="html">Arquitetura</title><link href="http://localhost:4000/categoria1/categoria2/2025/01/13/arquitetura.html" rel="alternate" type="text/html" title="Arquitetura" /><published>2025-01-13T09:00:00-03:00</published><updated>2025-01-13T09:00:00-03:00</updated><id>http://localhost:4000/categoria1/categoria2/2025/01/13/arquitetura</id><content type="html" xml:base="http://localhost:4000/categoria1/categoria2/2025/01/13/arquitetura.html"><![CDATA[<embed src="/pdfs/Fundamentals-of-Software-Architecture.pdf" width="100%" height="900px" type="application/pdf" />]]></content><author><name></name></author><category term="Categoria1" /><category term="Categoria2" /><category term="tag1" /><category term="tag2" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Big Data</title><link href="http://localhost:4000/categoria1/categoria2/2025/01/13/bigdata.html" rel="alternate" type="text/html" title="Big Data" /><published>2025-01-13T09:00:00-03:00</published><updated>2025-01-13T09:00:00-03:00</updated><id>http://localhost:4000/categoria1/categoria2/2025/01/13/bigdata</id><content type="html" xml:base="http://localhost:4000/categoria1/categoria2/2025/01/13/bigdata.html"><![CDATA[<p>Resumo:</p>
 
 <embed src="/pdfs/big-data.pdf" width="100%" height="900px" type="application/pdf" />
 
@@ -138,45 +158,4 @@ trabalho a ser executado pela equipe do projeto a fim de alcançar os objetivos 
   <li>
     <p><code class="language-plaintext highlighter-rouge">Tempo de espera</code>: soma dos períodos em que o processo estava no seu estado pronto.</p>
   </li>
-</ul>]]></content><author><name></name></author><category term="BD" /><summary type="html"><![CDATA[Diferença entre termos]]></summary></entry><entry><title type="html">SOA</title><link href="http://localhost:4000/soa/2024/07/25/soa.html" rel="alternate" type="text/html" title="SOA" /><published>2024-07-25T21:50:58-03:00</published><updated>2024-07-25T21:50:58-03:00</updated><id>http://localhost:4000/soa/2024/07/25/soa</id><content type="html" xml:base="http://localhost:4000/soa/2024/07/25/soa.html"><![CDATA[<blockquote>
-  <p>Diferença entre as composições SOA</p>
-</blockquote>
-
-<p>SOA (Service-Oriented Architecture): É um padrão de arquitetura de software que promove o baixo acoplamento entre os serviços.</p>
-
-<p>Em SOA, diferentes serviços interagem uns com os outros através de interfaces bem definidas usando protocolos comuns (como HTTP, SOAP, REST).</p>
-
-<ul>
-  <li>
-    <p>UDDI (Universal Description, Discovery, and Integration): É um padrão para a publicação e descoberta de serviços web. Ele fornece um mecanismo para descrever serviços (em XML), registrá-los em um diretório central e possibilitar que outros serviços ou clientes descubram e interajam com esses serviços.</p>
-  </li>
-  <li>
-    <p>O UDDI é, essencialmente, uma “lista telefônica” para serviços web, permitindo que as organizações publiquem informações sobre os serviços que oferecem e encontrem serviços oferecidos por outros.</p>
-  </li>
-  <li>
-    <p>Renderização de documentos XML em navegadores web: Isso é feito usando tecnologias como XSLT (Extensible Stylesheet Language Transformations) para transformar XML em HTML ou outros formatos que possam ser visualizados em um navegador web. Este processo é distinto do que o UDDI faz. Portanto, a função do UDDI na arquitetura SOA é fornecer uma infraestrutura para a descoberta e integração de serviços web, e não para a renderização de documentos XML em navegadores web.</p>
-  </li>
-</ul>]]></content><author><name></name></author><category term="SOA" /><summary type="html"><![CDATA[Diferença entre as composições SOA]]></summary></entry><entry><title type="html">SQL</title><link href="http://localhost:4000/sql/2024/07/25/sql.html" rel="alternate" type="text/html" title="SQL" /><published>2024-07-25T21:50:58-03:00</published><updated>2024-07-25T21:50:58-03:00</updated><id>http://localhost:4000/sql/2024/07/25/sql</id><content type="html" xml:base="http://localhost:4000/sql/2024/07/25/sql.html"><![CDATA[<blockquote>
-  <p>Diferença entre o DDL x DML no SQL.</p>
-</blockquote>
-
-<ul>
-  <li>DDL -&gt; CREATE, ALTER e DROP.</li>
-</ul>
-
-<p>Deu Merda Liga pro <code class="language-plaintext highlighter-rouge">SIDU</code>:</p>
-
-<ul>
-  <li>DML: <code class="language-plaintext highlighter-rouge">Select, Insert, Delete, Update</code> (SIDU)</li>
-</ul>
-
-<p><br /></p>
-<blockquote>
-  <p>CUBE</p>
-</blockquote>
-
-<p>Como o CUBE é usado no SQL.</p>
-
-<p>A função CUBE no SQL é usada em conjunto com a cláusula GROUP BY para gerar subtotais e totais cruzados em consultas.</p>
-
-<p>Ela cria todas as combinações possíveis de grupos de colunas especificadas na cláusula GROUP BY, fornecendo uma maneira conveniente de calcular totais para diferentes níveis de agregação.</p>]]></content><author><name></name></author><category term="SQL" /><summary type="html"><![CDATA[Diferença entre o DDL x DML no SQL.]]></summary></entry></feed>
+</ul>]]></content><author><name></name></author><category term="BD" /><summary type="html"><![CDATA[Diferença entre termos]]></summary></entry></feed>
