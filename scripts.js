@@ -35,6 +35,10 @@ document.addEventListener('DOMContentLoaded', function () {
 { name: 'Data Mining - Resumo.pdf', path: 'pdfs/datamining-resumo.pdf', type: 'pdf' },
 
 
+{ name: 'UML - Resumo.pdf', path: 'pdfs/TI TOTAL - Aula 48 - Unified Modeling Language (UML) - Resumo_protected.pdf', type: 'pdf' },
+
+{ name: 'UML - Teoria.pdf', path: 'pdfs/TI TOTAL - Aula 48 - Unified Modeling Language (UML) - Teoria_protected.pdf', type: 'pdf' },
+
 
 
 
