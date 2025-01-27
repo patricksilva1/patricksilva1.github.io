@@ -1,0 +1,133 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background: linear-gradient(135deg, #0073e6, #005bb5) !important;
+    color: white;
+    padding: 2rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+footer {
+    background-color: #343a40 !important;
+    color: white;
+    padding: 1rem 0;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.list-group-item {
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item:hover {
+    background-color: #f1f1f1;
+    transform: translateX(5px);
+}
+
+#pdf-viewer-container {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Modo Escuro */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode header {
+    background: linear-gradient(135deg, #1a1a1a, #000000) !important;
+}
+
+body.dark-mode footer {
+    background-color: #000000 !important;
+}
+
+body.dark-mode .list-group-item {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border-color: #333;
+}
+
+body.dark-mode .card {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+body.dark-mode #pdf-viewer-container {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+/* Sidebar */
+#sidebar {
+    width: 250px; /* Largura padrão da barra lateral */
+    transition: width 0.3s ease;
+    overflow: hidden; /* Esconde o conteúdo quando recolhido */
+}
+
+#sidebar.collapsed {
+    width: 50px; /* Largura reduzida quando recolhida */
+}
+
+#sidebar.collapsed .sidebar-content {
+    opacity: 0; /* Esconde o conteúdo da barra lateral */
+    transition: opacity 0.3s ease;
+}
+
+#sidebar .sidebar-content {
+    opacity: 1; /* Mostra o conteúdo da barra lateral */
+    transition: opacity 0.3s ease;
+}
+
+#toggle-sidebar {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1000; /* Garante que o botão fique acima de outros elementos */
+}
+
+#sidebar.collapsed + #pdf-viewer-container {
+    margin-left: 50px; /* Ajusta o espaço para a barra lateral recolhida */
+}            
