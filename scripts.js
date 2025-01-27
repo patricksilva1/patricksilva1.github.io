@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const sidebar = document.getElementById('sidebar');
 
     let files = [
-        { name: 'Arquivo 1.pdf', path: 'pdfs/arquivo1.pdf', type: 'pdf' },
-        { name: 'Arquivo 2.pdf', path: 'pdfs/arquivo2.pdf', type: 'pdf' },
+        { name: 'Gramática.pdf', path: 'pdfs/gramatica.pdf', type: 'pdf' },
+        { name: 'Big Data.pdf', path: 'pdfs/big-data.pdf', type: 'pdf' },
         // Adicione mais arquivos aqui...
     ];
 
