@@ -19,6 +19,27 @@ document.addEventListener('DOMContentLoaded', function () {
         { name: 'Gramatica.pdf', path: 'pdfs/gramatica.pdf', type: 'pdf' },
         { name: 'Big Data.pdf', path: 'pdfs/big-data.pdf', type: 'pdf' },
         { name: 'Big Data 1.pdf', path: 'pdfs/big-data-1.pdf', type: 'pdf' },
+
+{ name: 'Arquitetura.pdf', path: 'pdfs/Fundamentals-of-Software-Architecture.pdf', type: 'pdf' },
+{ name: 'MER, DER, ER - Mapa Mental.pdf', path: 'pdfs/TI TOTAL - Aula 02 - Modelagem Entidade-Relacionamento - Mapa Mental - v2.pdf_protected.pdf', type: 'pdf' },
+{ name: 'MER, DER, ER - Questoes.pdf', path: 'pdfs/TI TOTAL - Aula 02 - Modelagem Entidade-Relacionamento - Questões - v2.pdf_protected.pdf', type: 'pdf' },
+{ name: 'MER, DER, ER - Resumo.pdf', path: 'pdfs/TI TOTAL - Aula 02 - Modelagem Entidade-Relacionamento - Resumo - v2.pdf_protected.pdf', type: 'pdf' },
+
+{ name: 'MER, DER, ER - Teoria.pdf', path: 'pdfs/TI TOTAL - Aula 02 - Modelagem Entidade-Relacionamento - Teoria - v2.pdf_protected.pdf', type: 'pdf' },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         // Adicione mais arquivos aqui...
     ];
 
