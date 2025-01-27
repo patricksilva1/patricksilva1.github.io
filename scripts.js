@@ -15,24 +15,17 @@ document.addEventListener('DOMContentLoaded', function () {
     const toggleSidebar = document.getElementById('toggle-sidebar');
     const sidebar = document.getElementById('sidebar');
 
-    let files = []; // Lista de arquivos será carregada do JSON
+    let files = [
+        { name: 'Arquivo 1.pdf', path: 'pdfs/arquivo1.pdf', type: 'pdf' },
+        { name: 'Arquivo 2.pdf', path: 'pdfs/arquivo2.pdf', type: 'pdf' },
+        // Adicione mais arquivos aqui...
+    ];
+
     let currentFileIndex = -1;
     let currentPage = 1;
     let totalPages = 1;
     let scale = 1;
 
-    // Função para carregar a lista de arquivos do JSON
-    async function loadFiles() {
-        try {
-            const response = await fetch('files.json'); // Carrega o arquivo JSON
-            files = await response.json(); // Converte a resposta em um objeto JavaScript
-            renderFileList(); // Atualiza a lista de arquivos na interface
-        } catch (error) {
-            console.error('Erro ao carregar a lista de arquivos:', error);
-        }
-    }
-
-    // Função para renderizar a lista de arquivos
     function renderFileList() {
         const searchTerm = searchInput.value.toLowerCase();
         const filter = filterType.value;
@@ -52,7 +45,6 @@ document.addEventListener('DOMContentLoaded', function () {
             .join('');
     }
 
-    // Função para obter o ícone correspondente ao tipo de arquivo
     function getFileIcon(type) {
         switch (type) {
             case 'pdf': return 'bi-file-earmark-pdf';
@@ -62,26 +54,22 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    // Função para carregar um arquivo no visualizador de PDF
     function loadFile(filePath) {
         pdfViewer.setAttribute('src', filePath);
         currentPage = 1;
         updatePageControls();
     }
 
-    // Função para atualizar os controles de navegação de página
     function updatePageControls() {
         prevPageBtn.disabled = currentPage <= 1;
         nextPageBtn.disabled = currentPage >= totalPages;
         pageNum.textContent = `Página: ${currentPage}/${totalPages}`;
     }
 
-    // Função para atualizar o zoom do visualizador de PDF
     function updateZoom() {
         pdfViewer.style.transform = `scale(${scale})`;
     }
 
-    // Evento de carregamento do visualizador de PDF
     pdfViewer.onload = function () {
         pdfViewer.contentWindow.PDFViewerApplication.initializedPromise.then(() => {
             totalPages = pdfViewer.contentWindow.PDFViewerApplication.pagesCount;
@@ -89,7 +77,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     };
 
-    // Eventos de navegação e zoom
     prevPageBtn.addEventListener('click', function () {
         if (currentPage > 1) {
             currentPage--;
@@ -116,20 +103,18 @@ document.addEventListener('DOMContentLoaded', function () {
         updateZoom();
     });
 
-    // Evento de tela cheia
     fullscreenBtn.addEventListener('click', function () {
         if (pdfViewer.requestFullscreen) {
             pdfViewer.requestFullscreen();
         } else if (pdfViewer.mozRequestFullScreen) { // Firefox
             pdfViewer.mozRequestFullScreen();
-        } else if (pdfViewer.webkitRequestFullscreen) { // Chrome, Safari e Opera
+        } else if (pdfViewer.webkitRequestFullscreen) { // Chrome, Safari and Opera
             pdfViewer.webkitRequestFullscreen();
         } else if (pdfViewer.msRequestFullscreen) { // IE/Edge
             pdfViewer.msRequestFullscreen();
         }
     });
 
-    // Evento de busca no PDF
     pdfSearchBtn.addEventListener('click', function () {
         const searchTerm = pdfSearch.value;
         if (searchTerm) {
@@ -137,11 +122,9 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // Eventos de busca e filtro
     searchInput.addEventListener('input', renderFileList);
     filterType.addEventListener('change', renderFileList);
 
-    // Evento de alternância do tema
     themeToggle.addEventListener('click', function () {
         document.body.classList.toggle('dark-mode');
         const isDarkMode = document.body.classList.contains('dark-mode');
@@ -150,7 +133,6 @@ document.addEventListener('DOMContentLoaded', function () {
             : '<i class="bi bi-moon"></i> Modo Escuro';
     });
 
-    // Evento de clique na lista de arquivos
     fileList.addEventListener('click', function (e) {
         if (e.target.classList.contains('list-group-item')) {
             e.preventDefault();
@@ -160,7 +142,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // Evento de alternância da barra lateral
     toggleSidebar.addEventListener('click', function () {
         sidebar.classList.toggle('collapsed');
         const isCollapsed = sidebar.classList.contains('collapsed');
@@ -169,6 +150,13 @@ document.addEventListener('DOMContentLoaded', function () {
             : '<i class="bi bi-chevron-left"></i>'; // Ícone para recolher
     });
 
-    // Carregar a lista de arquivos ao iniciar
-    loadFiles();
+    renderFileList();
 });
+
+function getFileType(fileName) {
+    const ext = fileName.split('.').pop().toLowerCase();
+    if (['pdf'].includes(ext)) return 'pdf';
+    if (['jpg', 'jpeg', 'png', 'gif'].includes(ext)) return 'image';
+    if (['txt'].includes(ext)) return 'text';
+    return 'other';
+}
