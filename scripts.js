@@ -27,6 +27,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
 { name: 'MER, DER, ER - Teoria.pdf', path: 'pdfs/TI TOTAL - Aula 02 - Modelagem Entidade-Relacionamento - Teoria - v2.pdf_protected.pdf', type: 'pdf' },
 
+{ name: 'Web Service.pdf', path: 'pdfs/Web Service2_protected.pdf', type: 'pdf' },
+
+{ name: 'Data Mining - Completo.pdf', path: 'pdfs/datamining-full.pdf', type: 'pdf' },
+
+
+{ name: 'Data Mining - Resumo.pdf', path: 'pdfs/datamining-resumo.pdf', type: 'pdf' },
 
 
 
