@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let files = [
         { name: 'Gramática.pdf', path: 'pdfs/gramatica.pdf', type: 'pdf' },
         { name: 'Big Data.pdf', path: 'pdfs/big-data.pdf', type: 'pdf' },
+        { name: 'Big Data 1.pdf', path: 'pdfs/big-data-1.pdf', type: 'pdf' },
         // Adicione mais arquivos aqui...
     ];
 
