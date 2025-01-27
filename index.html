@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repositório de Arquivos</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Ícones do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="bg-primary text-white text-center py-4 shadow">
+        <h1 class="mb-0"><i class="bi bi-folder me-2"></i>Repositório de Arquivos</h1>
+        <p class="mb-0">Visualize e gerencie seus arquivos</p>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <div class="container-fluid my-4">
+        <div class="row">
+            <!-- Lista de Arquivos (Recolhível) -->
+            <div class="col-auto" id="sidebar">
+                <div class="sidebar-content p-3">
+                    <button id="toggle-sidebar" class="btn btn-sm btn-light mb-3">
+                        <i class="bi bi-list"></i>
+                    </button>
+                    <div class="mb-3">
+                        <input type="text" id="search" class="form-control" placeholder="Buscar arquivo...">
+                    </div>
+                    <div class="mb-3">
+                        <select id="filter-type" class="form-select">
+                            <option value="all">Todos os tipos</option>
+                            <option value="pdf">PDF</option>
+                            <option value="image">Imagens</option>
+                            <option value="text">Textos</option>
+                        </select>
+                    </div>
+                    <div class="list-group" id="file-list">
+                        <!-- Lista de arquivos será preenchida dinamicamente via JavaScript -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Visualizador de PDF -->
+            <div class="col" id="pdf-viewer-container">
+                <div class="card shadow">
+                    <div class="card-header d-flex justify-content-between align-items-center bg-light">
+                        <h5 class="card-title mb-0"><i class="bi bi-file-earmark-pdf me-2"></i>Visualizador de PDF</h5>
+                        <div>
+                            <button id="fullscreen-btn" class="btn btn-sm btn-light">
+                                <i class="bi bi-arrows-fullscreen"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <!-- Controles de Navegação e Zoom -->
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <div>
+                                <button id="prev-page-btn" class="btn btn-sm btn-light" disabled>
+                                    <i class="bi bi-arrow-left"></i>
+                                </button>
+                                <button id="next-page-btn" class="btn btn-sm btn-light ms-2" disabled>
+                                    <i class="bi bi-arrow-right"></i>
+                                </button>
+                                <span id="page-num" class="ms-2">Página: -/-</span>
+                            </div>
+                            <div>
+                                <button id="zoom-out-btn" class="btn btn-sm btn-light">
+                                    <i class="bi bi-zoom-out"></i>
+                                </button>
+                                <button id="zoom-in-btn" class="btn btn-sm btn-light ms-2">
+                                    <i class="bi bi-zoom-in"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Visualizador de PDF -->
+                        <iframe id="pdf-viewer" src="" width="100%" height="600px" style="border: none;"></iframe>
+                        <!-- Busca no PDF -->
+                        <div class="mt-3">
+                            <input type="text" id="pdf-search" class="form-control" placeholder="Buscar no PDF...">
+                            <button id="pdf-search-btn" class="btn btn-sm btn-primary mt-2">
+                                <i class="bi bi-search"></i> Buscar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2023 Repositório de Arquivos. Todos os direitos reservados.</p>
+        <button id="theme-toggle" class="btn btn-sm btn-light mt-2">
+            <i class="bi bi-moon"></i> Modo Escuro
+        </button>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Scripts personalizados -->
+    <script src="scripts.js"></script>
+</body>
+</html>
